@@ -38,19 +38,63 @@ Each screen: PNG in `design-ref/`, content, interactions. 👁 = verified visual
 | Icons | 63:2299 |
 | Typography scale | 57:2268 |
 
+## MCP capture status (T0.2)
+
+- `get_variable_defs` on `285:12895` — done (24/11). Values below.
+- `get_design_context` on all table nodes — **blocked** by Figma Starter MCP rate limit after the variables call. Re-run when quota resets; none of the screen measurement sections below have been filled from design context yet.
+
+### Variables from `285:12895` (`get_variable_defs`)
+
+| Name | Value |
+|---|---|
+| Primary color/primary color-500 | `#005AFB` |
+| Primary color/primary color-50 | `#E6EFFF` |
+| Primary Color-Blue/500 | `#3B82F6` (Figma inconsistency — do not use) |
+| secodary/secodary-500 | `#27272B` |
+| secodary/secodary-50 | `#E9E9EA` |
+| Secondary | `#525256` |
+| Text Color | `#000712` |
+| Default Black | `#191919` |
+| Black | `#252525` |
+| Text Color/600-Body | `#718096` |
+| sub color | `#4A4A4A` |
+| Gray/03 | `#9F9F9F` |
+| Gray/05 | `#E8E8E8` |
+| Gray/06 | `#F3F3F3` |
+| Gray/30 | `#F2F4F7` |
+| Gray/500 | `#606C80` |
+| BG label color | `#F3F4F6` |
+| BG color | `#F6F8FA` |
+| White / Others/White | `#FFFFFF` |
+| Support Green Normal / Light | `#2BA52E` / `#EAF6EA` |
+| Support Red Normal / Light | `#DB302A` / `#FBEAEA` |
+| Support Yellow Normal / Light | `#E6BA0E` / `#FFFAE7` |
+| Support Dark orange 500 / 50 | `#FA9E00` / `#FFF5E6` |
+| Support Violet 2 500 / 50 | `#7D2D7E` / `#F2EAF2` |
+| Support greeenish 500 / 50 | `#04B5AE` / `#E6F8F7` |
+| Team C Text/H4 | Inter Semi Bold 31 / 600 / 1.5 |
+| Team C Text/H6 | Inter Medium 20 / 500 / 1.5 |
+| Semibold 16-24 | Inter Semi Bold 16 / 600 / 24 |
+| Regular 14-20 | Inter Regular 14 / 400 / 20 |
+| Team C Text/small Body r | Inter Regular 14 / 400 / 1.5 |
+| 12px/Regular | Inter Regular 12 / 400 / 18 |
+| Team C Text/Small Caption | Inter Regular 12 / 400 / 1.5 |
+| Medium 12-16 | Inter Medium 12 / 500 / 16 |
+| Extra Bold/10 | Inter Extra Bold 10 / 800 / 16 |
+
 ## Global measurements (fill from the first MCP capture run)
 
 | Item | Value |
 |---|---|
-| Page horizontal padding | |
-| Gap between cards | |
-| Card radius | |
-| Card padding | |
-| Card shadow / border | |
+| Page horizontal padding | _(pending get_design_context)_ |
+| Gap between cards | _(pending get_design_context)_ |
+| Card radius | _(pending get_design_context)_ |
+| Card padding | _(pending get_design_context)_ |
+| Card shadow / border | _(pending get_design_context)_ |
 | TopNav height | 72 (from Figma) |
-| Nav pill radius / padding | |
+| Nav pill radius / padding | _(pending get_design_context)_ |
 | Button height | 38–40 |
-| Input height / radius | |
+| Input height / radius | _(pending get_design_context)_ |
 | Modal width | 720 (from Figma) |
 
 ## TopNav 👁
