@@ -162,7 +162,7 @@ Work top to bottom. One task = one Cursor chat = one or more small commits.
 - [ ] T0.1 Connect the Figma MCP in Cursor; export fallback PNGs to `design-ref/`, icons (SVG) to `src/assets/icons/`, avatars (WebP) to `src/assets/avatars/`
 - [ ] T0.2 One-time MCP design capture (docs/SETUP.md step 5) → all measurements written into `docs/screens.md`
 - [x] T0.3 Scaffold Vite + TS strict, Tailwind v4, ESLint, Prettier, Vitest, path alias `@/`
-- [ ] T0.4 Tokens in `@theme` + Inter + base styles (page-bg)
+- [x] T0.4 Tokens in `@theme` + Inter + base styles (page-bg)
 - [ ] T0.5 Router skeleton with placeholder pages + AppLayout/AuthLayout
 - [ ] T0.6 Deploy to Vercel
 
