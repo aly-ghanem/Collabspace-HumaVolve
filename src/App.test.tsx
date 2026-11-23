@@ -3,8 +3,10 @@ import { describe, expect, it } from 'vitest'
 import App from './App'
 
 describe('App', () => {
-  it('renders the brand name', () => {
+  it('renders the dashboard placeholder', () => {
     render(<App />)
-    expect(screen.getByRole('heading', { name: 'CollabSpace' })).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', { name: 'Dashboard' }),
+    ).toBeInTheDocument()
   })
 })

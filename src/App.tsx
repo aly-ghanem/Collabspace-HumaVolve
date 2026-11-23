@@ -1,7 +1,12 @@
+import { RouterProvider } from 'react-router-dom'
+import { Providers } from '@/app/providers'
+import { router } from '@/app/router'
+
+/** Kept for tests; production entry uses main.tsx → RouterProvider directly. */
 export default function App() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-page-bg">
-      <h1 className="text-h4 text-text">CollabSpace</h1>
-    </main>
+    <Providers>
+      <RouterProvider router={router} />
+    </Providers>
   )
 }
