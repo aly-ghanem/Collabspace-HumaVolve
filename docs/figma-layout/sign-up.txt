@@ -1,0 +1,48 @@
+# Sign up (225:9824) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+vector "Vector" x=1135 y=125 w=24 h=24
+frame "Sign Up" x=416 y=145 w=601 h=740
+  frame "Sign In" x=0 y=0 w=601 h=740
+    frame "Sign In Content" x=64 y=64 w=473 h=500
+      frame "Option" x=0 y=0 w=473 h=164
+        frame "Text" x=0 y=0 w=473 h=88
+          text "Sign Up" x=0 y=0 w=473 h=44
+          text "Connect with every application!" x=0 y=64 w=473 h=24
+        frame "Sign In Option" x=0 y=112 w=473 h=52
+          frame "Button" x=0 y=0 w=473 h=52
+            instance "Social" x=155 y=16 w=20 h=20
+            text "Sign With Google" x=185 y=20 w=133 h=12
+      frame "Group 1" x=0.0000457763671875 y=188 w=472.9999084472656 h=24
+        text "OR" x=215.29605102539062 y=188 w=37.51377868652344 h=24
+        line "Line 1" x=202.2482147216797 y=200 w=202.2481689453125 h=0.000010840373761311639
+        line "Line 2" x=472.9999542236328 y=200 w=202.2481689453125 h=0.00001084038467524806
+      frame "Info" x=0 y=236 w=473 h=264
+        frame "Input" x=0 y=0 w=473 h=56
+          instance "Icon" x=16 y=18 w=20 h=20
+          frame "Label" x=48 y=16 w=75 h=24
+            text "Label" x=0 y=0 w=75 h=24
+          frame "Frame 2147224480" x=17 y=-3.5 w=56 h=9
+            text "Full Name" x=0 y=0 w=56 h=9
+        frame "Input" x=0 y=80 w=473 h=56
+          instance "Email" x=16 y=18 w=20 h=20
+          text "Email" x=48 y=16 w=79 h=24
+          frame "Frame 2147224480" x=17 y=-3.5 w=31 h=9
+            text "Email" x=0 y=0 w=31 h=9
+        frame "Input" x=0 y=160 w=473 h=56
+          instance "Lock" x=16 y=18 w=20 h=20
+          text "Email" x=48 y=16 w=74 h=24
+          frame "Frame 2147224480" x=17 y=-3.5 w=56 h=9
+            text "Password" x=0 y=0 w=56 h=9
+        frame "Footer" x=0 y=240 w=473 h=24
+          frame "Remember Me" x=0 y=0 w=140 h=24
+            frame "Checkbox" x=0 y=2 w=20 h=20
+            text "Remember Me" x=30 y=0 w=110 h=24
+    frame "Log In" x=64 y=588 w=473 h=88
+      instance "Button" x=0 y=0 w=473 h=40
+      text "Already have an account? Sign In" x=0 y=64 w=473 h=24
+frame "Header" x=48 y=48 w=1344 h=40
+  text "Collabspace" x=0 y=0 w=113 h=40
+  frame "Frame 2147224282" x=1256 y=0 w=88 h=40
+    text "English" x=10 y=15.5 w=44 h=9
+    frame "iconamoon:arrow-up-2-light" x=78 y=30 w=20 h=20

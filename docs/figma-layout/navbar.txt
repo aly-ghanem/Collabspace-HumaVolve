@@ -1,0 +1,10 @@
+# Navbar (108:2705) 1480x676
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+symbol "State=Dashboard" x=20 y=20 w=1440 h=72
+symbol "State=Projects" x=20 y=114 w=1440 h=72
+symbol "State=Tasks" x=20 y=208 w=1440 h=72
+symbol "State=Chats" x=20 y=302 w=1440 h=72
+symbol "State=Meetings" x=20 y=396 w=1440 h=72
+symbol "State=Reports" x=20 y=490 w=1440 h=72
+symbol "State=nav with profile" x=20 y=584 w=1440 h=72

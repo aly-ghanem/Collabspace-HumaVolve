@@ -1,0 +1,44 @@
+# Create Task Overlay (141:2397) 720x661
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 2147224482" x=24 y=24 w=672 h=24
+  text "Create Task" x=0 y=0 w=143 h=18
+  frame "material-symbols:close-rounded" x=648 y=0 w=24 h=24
+frame "Frame 2147224483" x=24 y=80 w=672 h=290
+  frame "Frame 2147224486" x=0 y=0 w=672 h=56
+    frame "Input" x=0 y=0 w=672 h=56
+      frame "Bag-Suitcase-1--Streamline-Core" x=16 y=20 w=16 h=16
+      text "Task Name" x=44 y=23 w=90 h=10
+      frame "Frame 2147224480" x=27 y=-3.5 w=63 h=9
+        text "Task Name" x=0 y=0 w=63 h=9
+  frame "Frame 2147224485" x=0 y=89 w=672 h=56
+    frame "Dropdowns" x=0 y=0 w=319.5 h=56
+      frame "Password" x=16 y=16 w=78 h=24
+        text "Start Date" x=0 y=0 w=78 h=24
+      frame "uiw:date" x=287.5 y=20 w=16 h=16
+    frame "Dropdowns" x=352.5 y=0 w=319.5 h=56
+      frame "Password" x=16 y=16 w=69 h=24
+        text "End Date" x=0 y=0 w=69 h=24
+      frame "uiw:date" x=287.5 y=20 w=16 h=16
+  frame "Frame 2147224492" x=0 y=178 w=672 h=112
+    frame "Frame 2147224491" x=0 y=0 w=672 h=56
+      frame "Input" x=0 y=0 w=672 h=56
+        text "@Anas Mohamed" x=16 y=23 w=513 h=10
+        frame "Frame 2147224480" x=17 y=-3.5 w=67 h=9
+          text "Add Guests" x=0 y=0 w=67 h=9
+        frame "Button" x=541 y=12 w=115 h=32
+          text "New entry" x=35.5 y=9 w=28 h=14
+          instance "add" x=71.5 y=8 w=16 h=16
+    frame "Avatars" x=0 y=72 w=672 h=40
+      frame "Avatar" x=24 y=0 w=32 h=32
+      frame "Avatar" x=48 y=0 w=32 h=32
+      frame "Frame 2147224361" x=0 y=0 w=672 h=40
+        frame "Avatar" x=0 y=0 w=40 h=40
+        frame "Avatar" x=32 y=0 w=40 h=40
+frame "Upload Areas" x=24 y=402 w=672 h=163
+  text "Add Task Files" x=0 y=0 w=672 h=18
+  frame "Upload" x=0 y=34 w=672 h=129
+    frame "Upload" x=36 y=56.5 w=16 h=16
+      instance "Arrow long-Up" x=4 y=4 w=8 h=8
+    text "Drag and drop files or click to upload" x=58 y=55.5 w=209 h=18
+instance "Button" x=24 y=597 w=672 h=40

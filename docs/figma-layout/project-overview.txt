@@ -1,0 +1,115 @@
+# All Projects / Alpha (181:1158) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 2147224332" x=65 y=104 w=1311 h=71
+  frame "Frame 2147224404" x=0 y=5.5 w=955 h=60
+    frame "Frame 2147224511" x=0 y=0 w=124 h=16
+      text "Projects" x=0 y=0 w=54 h=16
+      frame "iconamoon:arrow-up-2-light" x=78 y=0 w=16 h=16
+      text "Alpha" x=86 y=3 w=38 h=10
+    frame "Frame 2147224510" x=0 y=32 w=217 h=28
+      text "Alpha" x=0 y=2.5 w=87 h=23
+      frame "Frame 2147224509" x=103 y=0 w=114 h=28
+        frame "Indicator" x=0 y=0 w=114 h=28
+          frame "Last week" x=8 y=9.5 w=98 h=9
+            text "42% Completed" x=0 y=0 w=98 h=9
+  frame "Frame 2147224355" x=987 y=0 w=324 h=71
+    frame "Frame 2147224364" x=12 y=12 w=300 h=10
+      text "DuE Date" x=0 y=0 w=300 h=10
+    frame "Frame 2147224518" x=12 y=38 w=300 h=21
+      frame "Frame 2147224386" x=0 y=0 w=300 h=4
+        frame "Group 33778" x=0 y=0 w=300 h=4
+          rounded-rectangle "Rectangle 40040" x=0 y=0 w=300 h=4
+          rounded-rectangle "Rectangle 40041" x=0 y=0 w=180.61224365234375 h=4
+      frame "Frame 2147224508" x=0 y=12 w=300 h=9
+        frame "Frame 2147224402" x=0 y=0 w=110 h=9
+          text "Start Date:" x=0 y=0 w=62 h=9
+          text "Oct 12" x=70 y=0 w=40 h=9
+        frame "Frame 2147224403" x=195 y=0 w=105 h=9
+          text "Deadline:" x=0 y=0 w=53 h=9
+          text "Dec 25" x=61 y=0 w=44 h=9
+instance "Navbar" x=0 y=0 w=1440 h=72
+frame "Frame 2147224526" x=64 y=207 w=1312 h=785
+  frame "Frame 2147224514" x=0 y=0 w=1312 h=28
+    frame "Frame 2147224511" x=0 y=0 w=105 h=28
+      text "Overview" x=16 y=0 w=73 h=12
+    frame "Frame 2147224512" x=135 y=0 w=76 h=28
+      text "Tasks" x=16 y=0 w=44 h=12
+    frame "Frame 2147224513" x=241 y=0 w=82 h=28
+      text "Teams" x=16 y=0 w=50 h=12
+    frame "Frame 2147224514" x=353 y=0 w=67 h=28
+      text "Files" x=16 y=0 w=35 h=12
+  frame "Frame 2147224525" x=0 y=60 w=1312 h=707
+    frame "Frame 2147224516" x=0 y=0 w=864 h=707
+      frame "Frame 2147224515" x=0 y=0 w=864 h=111
+        frame "Frame 2147224353" x=20 y=20 w=824 h=15
+          text "Description" x=0 y=0 w=110 h=15
+        text "This project focuses on organizing tasks, tracking progress," x=20 y=55 w=643 h=36
+      frame "Graphs / Monthly Flow" x=0 y=143 w=864 h=325
+        frame "Header" x=20 y=20 w=824 h=24
+          frame "Frame 40384" x=0 y=4.5 w=160 h=15
+            text "Project overview" x=0 y=0 w=160 h=15
+          frame "Frame 2147224322" x=617 y=0 w=207 h=24
+            frame "Indicator" x=0 y=0 w=97 h=24
+            frame "Indicator" x=121 y=0 w=86 h=24
+        frame "Graph" x=20 y=64 w=824 h=241
+          frame "Amount" x=0 y=0 w=20 h=213
+            frame "Amount" x=0 y=0 w=20 h=34
+            frame "Amount" x=0 y=8.600000381469727 w=20 h=68
+            frame "Amount" x=0 y=51.20000076293945 w=22 h=68
+            frame "Amount" x=0 y=93.80000305175781 w=22 h=68
+            frame "Amount" x=0 y=136.40000915527344 w=22 h=68
+            frame "Amount" x=0 y=179.00001525878906 w=15 h=34
+          frame "Frame 1000007421" x=32 y=0 w=792 h=241
+            frame "Line" x=0 y=0 w=792 h=189
+            frame "Month" x=0 y=200 w=792 h=18
+      frame "Frame 2147224299" x=0 y=500 w=864 h=207
+        frame "Frame 2147224353" x=20 y=20 w=824 h=15
+          text "Product Details" x=0 y=0 w=147 h=15
+        frame "Frame 2147224524" x=20 y=59 w=824 h=128
+          frame "Frame 2147224522" x=0 y=0 w=824 h=52
+            frame "Frame 2147224396" x=0 y=0 w=147 h=52
+            frame "Frame 2147224397" x=352.5 y=0 w=119 h=52
+            frame "Frame 2147224398" x=677 y=0 w=147 h=52
+          frame "Frame 2147224523" x=0 y=76 w=824 h=52
+            frame "Frame 2147224396" x=0 y=0 w=147 h=52
+            frame "Frame 2147224397" x=356 y=0 w=147 h=52
+    frame "Frame 2147224517" x=896 y=0 w=416 h=707
+      frame "Statistics details" x=0 y=0 w=416 h=356.0006103515625
+        frame "Frame 40384" x=20 y=20 w=376 h=15
+          text "Project Progress" x=0 y=0 w=376 h=15
+        frame "Group 1171275875" x=118.99992370605469 y=78 w=178.00015258789062 h=178.00064086914062
+          ellipse "Ellipse 6651" x=297 y=255.61338806152344 w=178.0001521317431 h=178.0001521317431
+          ellipse "Ellipse 6652" x=297 y=255.6138458251953 w=178.0001521317431 h=178.0001521317431
+          frame "Group 1171275874" x=198.55223083496094 y=120.18733596801758 w=34.519569396972656 h=63.818450927734375
+          frame "Frame 2147224399" x=154.0001678466797 y=205 w=106 h=33
+            text "78%" x=0 y=0 w=106 h=12
+            text "Project Completed" x=0 y=24 w=106 h=9
+        frame "Frame 2147224398" x=4.5 y=299.0006408691406 w=407 h=37
+          frame "Frame 2147224395" x=0 y=0 w=96 h=37
+            text "62/94" x=26 y=0 w=44 h=12
+            frame "Frame 2147224394" x=0 y=28 w=96 h=9
+          frame "Frame 2147224396" x=139 y=0 w=113 h=37
+            text "36/94" x=34 y=0 w=45 h=12
+            frame "Frame 2147224394" x=0 y=28 w=113 h=9
+          frame "Frame 2147224397" x=295 y=0 w=112 h=37
+            text "42/94" x=34 y=0 w=44 h=12
+            frame "Frame 2147224394" x=0 y=28 w=112 h=9
+      frame "Frame 2147224339" x=0 y=388.0006103515625 w=416 h=318.9993896484375
+        frame "Frame 2147224353" x=16 y=20 w=384 h=15
+          frame "Frame 2147224366" x=0 y=0 w=384 h=15
+            text "Team Members" x=0 y=0 w=148 h=15
+            frame "Indicator" x=160 y=0 w=56 h=15
+        frame "Frame 2147224357" x=16 y=55 w=384 h=247.9993896484375
+          frame "Frame 2147224388" x=0 y=0 w=384 h=40
+            frame "Avatar" x=0 y=0 w=40 h=40
+            frame "Frame 2147224387" x=48 y=10.5 w=336 h=19
+          frame "Frame 2147224389" x=0 y=56 w=384 h=40
+            frame "Avatar" x=0 y=0 w=40 h=40
+            frame "Frame 2147224387" x=46 y=15 w=338 h=10
+          frame "Frame 2147224390" x=0 y=112 w=384 h=40
+            frame "Avatar" x=0 y=0 w=40 h=40
+            frame "Frame 2147224387" x=46 y=15 w=338 h=10
+          frame "Frame 2147224391" x=0 y=168 w=384 h=40
+            frame "Avatar" x=0 y=0 w=40 h=40
+            frame "Frame 2147224387" x=46 y=15 w=338 h=10

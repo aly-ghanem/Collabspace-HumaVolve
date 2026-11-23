@@ -1,0 +1,12 @@
+# Teams overlay (139:1513) 210x164
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Last week" x=16 y=26 w=178 h=28
+  text "UI/UX" x=0 y=6 w=158 h=16
+  frame "weui:done2-outlined" x=162 y=6 w=16 h=16
+frame "Last week" x=16 y=54 w=178 h=28
+  text "Front End" x=0 y=6 w=56 h=16
+frame "Last week" x=16 y=82 w=178 h=28
+  text "Back End" x=0 y=6 w=54 h=16
+frame "Last week" x=16 y=110 w=178 h=28
+  text "Graphic Designers" x=0 y=6 w=106 h=16

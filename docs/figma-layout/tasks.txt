@@ -1,0 +1,155 @@
+# Tasks Page (107:11473) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+vector "Vector" x=1135 y=125 w=24 h=24
+instance "Navbar" x=0 y=0 w=1440 h=72
+frame "Frame 2147224445" x=64 y=111 w=1312 h=44
+  frame "Frame 2147224451" x=0 y=0 w=579 h=44
+    frame "Frame 2147224287" x=0 y=2 w=326 h=40
+      frame "icon / search" x=40 y=8 w=24 h=24
+      text "Search for task and" x=44 y=14 w=53 h=12
+    frame "Frame 2147224288" x=342 y=0 w=112 h=44
+      text "Project 1" x=10 y=17 w=58 h=10
+      frame "iconamoon:arrow-up-2-light" x=102 y=34 w=24 h=24
+    frame "Frame 2147224289" x=470 y=0 w=109 h=44
+      text "My Task" x=10 y=17 w=55 h=10
+      frame "iconamoon:arrow-up-2-light" x=99 y=34 w=24 h=24
+  instance "Button" x=1176 y=2 w=136 h=40
+frame "Frame 2147224455" x=64 y=181 w=1312 h=695
+  frame "Frame 2147224453" x=0 y=0 w=304 h=695
+    frame "Frame 2147224449" x=0 y=0 w=304 h=62
+      frame "Frame 2147224450" x=20 y=20 w=101.828125 h=22
+        ellipse "Ellipse 8" x=0 y=8.41259765625 w=5.175000190734863 h=5.175000190734863
+        text "To-do" x=9.174999237060547 y=0 w=29 h=22
+      frame "Dots" x=284 y=23.237499237060547 w=15.524999618530273 h=15.524999618530273
+    frame "Frame 2147224456" x=0 y=80 w=304 h=595
+      frame "Button" x=20 y=0 w=264 h=40
+        text "New entry" x=92.5 y=13 w=63 h=14
+        instance "add" x=163.5 y=12 w=16 h=16
+      frame "Frame 2147224455" x=20 y=58 w=264 h=537
+        frame "Frame 2147224448" x=0 y=0 w=264 h=167
+          frame "Frame 2147224446" x=16 y=16 w=232 h=49
+            frame "Frame 2147224457" x=0 y=0 w=232 h=24
+            text "Initial layout and structure for mani page" x=0 y=36 w=232 h=13
+          frame "Avatars" x=16 y=123 w=232 h=28
+            frame "Avatar" x=16.297563552856445 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Avatar" x=32.59535217285156 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Frame 2147224447" x=0 y=3.135000228881836 w=53.189998626708984 h=21.729999542236328
+            frame "Frame 2147224459" x=136 y=0 w=96 h=28
+        frame "Frame 2147224448" x=0 y=185 w=264 h=167
+          frame "Frame 2147224446" x=16 y=16 w=232 h=49
+            frame "Frame 2147224457" x=0 y=0 w=232 h=24
+            text "Initial layout and structure for mani page" x=0 y=36 w=232 h=13
+          frame "Avatars" x=16 y=123 w=232 h=28
+            frame "Avatar" x=16.297563552856445 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Avatar" x=32.59535217285156 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Frame 2147224447" x=0 y=3.135000228881836 w=53.189998626708984 h=21.729999542236328
+            frame "Frame 2147224459" x=136 y=0 w=96 h=28
+        frame "Frame 2147224448" x=0 y=370 w=264 h=167
+          frame "Frame 2147224446" x=16 y=16 w=232 h=62
+            frame "Frame 2147224457" x=0 y=0 w=232 h=24
+            text "Update component library with new brand color" x=0 y=36 w=232 h=26
+          frame "Avatars" x=16 y=123 w=232 h=28
+            frame "Avatar" x=16.297563552856445 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Avatar" x=32.59535217285156 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Frame 2147224447" x=0 y=3.135000228881836 w=53.189998626708984 h=21.729999542236328
+            frame "Frame 2147224459" x=136 y=0 w=96 h=28
+  frame "Frame 2147224454" x=336 y=0 w=304 h=695
+    frame "Frame 2147224449" x=0 y=0 w=304 h=62
+      frame "Frame 2147224450" x=20 y=20 w=248.47500610351562 h=22
+        ellipse "Ellipse 8" x=0 y=8.41259765625 w=5.175000190734863 h=5.175000190734863
+        text "In Progress" x=9.174999237060547 y=0 w=239.3000030517578 h=22
+      frame "Dots" x=284 y=23.237499237060547 w=15.524999618530273 h=15.524999618530273
+    frame "Frame 2147224456" x=0 y=80 w=304 h=410
+      frame "Button" x=20 y=0 w=264 h=40
+        text "New entry" x=92.5 y=13 w=63 h=14
+        instance "add" x=163.5 y=12 w=16 h=16
+      frame "Frame 2147224455" x=20 y=58 w=264 h=352
+        frame "Frame 2147224448" x=0 y=0 w=264 h=167
+          frame "Frame 2147224446" x=16 y=16 w=232 h=49
+            frame "Frame 2147224457" x=0 y=0 w=232 h=24
+            text "Create Interactive Prototype for Chat screen" x=0 y=36 w=232 h=13
+          frame "Frame 2147224461" x=16 y=83 w=232 h=22
+            frame "Frame 2147224460" x=0 y=0 w=232 h=8
+            frame "Group 33780" x=0 y=16 w=232 h=6
+          frame "Avatars" x=16 y=123 w=232 h=28
+            frame "Avatar" x=16.297563552856445 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Avatar" x=32.59535217285156 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Frame 2147224447" x=0 y=3.135000228881836 w=53.189998626708984 h=21.729999542236328
+            frame "Frame 2147224459" x=136 y=0 w=96 h=28
+        frame "Frame 2147224449" x=0 y=185 w=264 h=167
+          frame "Frame 2147224446" x=16 y=16 w=232 h=49
+            frame "Frame 2147224457" x=0 y=0 w=232 h=24
+            text "Initial layout and structure for mani page" x=0 y=36 w=232 h=13
+          frame "Frame 2147224461" x=16 y=83 w=232 h=22
+            frame "Frame 2147224460" x=0 y=0 w=232 h=8
+            frame "Group 33780" x=0 y=16 w=232 h=6
+          frame "Avatars" x=16 y=123 w=232 h=28
+            frame "Avatar" x=16.297563552856445 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Avatar" x=32.59535217285156 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Frame 2147224447" x=0 y=3.135000228881836 w=37.459999084472656 h=21.729999542236328
+            frame "Frame 2147224459" x=136 y=0 w=96 h=28
+  frame "Frame 2147224455" x=672 y=0 w=304 h=695
+    frame "Frame 2147224449" x=0 y=0 w=304 h=62
+      frame "Frame 2147224450" x=20 y=20 w=248.47500610351562 h=22
+        ellipse "Ellipse 8" x=0 y=8.41259765625 w=5.175000190734863 h=5.175000190734863
+        text "In Review" x=9.174999237060547 y=0 w=239.3000030517578 h=22
+      frame "Dots" x=284 y=23.237499237060547 w=15.524999618530273 h=15.524999618530273
+    frame "Frame 2147224456" x=0 y=80 w=304 h=410
+      frame "Button" x=20 y=0 w=264 h=40
+        text "New entry" x=92.5 y=13 w=63 h=14
+        instance "add" x=163.5 y=12 w=16 h=16
+      frame "Frame 2147224455" x=20 y=58 w=264 h=352
+        frame "Frame 2147224448" x=0 y=0 w=264 h=167
+          frame "Frame 2147224446" x=16 y=16 w=232 h=49
+            frame "Frame 2147224457" x=0 y=0 w=232 h=24
+            text "Create Interactive Prototype for Chat screen" x=0 y=36 w=232 h=13
+          frame "Frame 2147224463" x=16 y=83.13500213623047 w=232 h=21.729999542236328
+            frame "Frame 2147224462" x=0 y=0 w=176 h=21.729999542236328
+            text "Reviewer" x=184 y=6.864999771118164 w=48 h=8
+          frame "Avatars" x=16 y=123 w=232 h=28
+            frame "Avatar" x=16.297563552856445 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Avatar" x=32.59535217285156 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Frame 2147224447" x=0 y=3.135000228881836 w=53.189998626708984 h=21.729999542236328
+            frame "Frame 2147224459" x=136 y=0 w=96 h=28
+        frame "Frame 2147224449" x=0 y=185 w=264 h=167
+          frame "Frame 2147224446" x=16 y=16 w=232 h=49
+            frame "Frame 2147224457" x=0 y=0 w=232 h=24
+            text "Initial layout and structure for mani page" x=0 y=36 w=232 h=13
+          frame "Frame 2147224463" x=16 y=83.13500213623047 w=232 h=21.729999542236328
+            frame "Frame 2147224462" x=0 y=0 w=176 h=21.729999542236328
+            text "Reviewer" x=184 y=6.864999771118164 w=48 h=8
+          frame "Avatars" x=16 y=123 w=232 h=28
+            frame "Avatar" x=16.297563552856445 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Avatar" x=32.59535217285156 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Frame 2147224447" x=0 y=3.135000228881836 w=37.459999084472656 h=21.729999542236328
+            frame "Frame 2147224459" x=136 y=0 w=96 h=28
+  frame "Frame 2147224456" x=1008 y=0 w=304 h=695
+    frame "Frame 2147224449" x=0 y=0 w=304 h=62
+      frame "Frame 2147224450" x=20 y=20 w=248.47500610351562 h=22
+        ellipse "Ellipse 8" x=0 y=8.41259765625 w=5.175000190734863 h=5.175000190734863
+        text "Completed Tasks" x=9.174999237060547 y=0 w=239.3000030517578 h=22
+      frame "Dots" x=284 y=23.237499237060547 w=15.524999618530273 h=15.524999618530273
+    frame "Frame 2147224456" x=0 y=80 w=304 h=410
+      frame "Button" x=20 y=0 w=264 h=40
+        text "New entry" x=92.5 y=13 w=63 h=14
+        instance "add" x=163.5 y=12 w=16 h=16
+      frame "Frame 2147224455" x=20 y=58 w=264 h=352
+        frame "Frame 2147224448" x=0 y=0 w=264 h=167
+          frame "Frame 2147224446" x=16 y=16 w=232 h=49
+            frame "Frame 2147224457" x=0 y=0 w=232 h=24
+            text "Create Interactive Prototype for Chat screen" x=0 y=36 w=232 h=13
+          frame "Avatars" x=16 y=123 w=232 h=28
+            frame "Avatar" x=16.297563552856445 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Avatar" x=32.59535217285156 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Frame 2147224447" x=0 y=3.135000228881836 w=53.189998626708984 h=21.729999542236328
+            frame "Frame 2147224459" x=136 y=0 w=96 h=28
+        frame "Frame 2147224449" x=0 y=185 w=264 h=167
+          frame "Frame 2147224446" x=16 y=16 w=232 h=49
+            frame "Frame 2147224457" x=0 y=0 w=232 h=24
+            text "Initial layout and structure for mani page" x=0 y=36 w=232 h=13
+          frame "Avatars" x=16 y=123 w=232 h=28
+            frame "Avatar" x=16.297563552856445 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Avatar" x=32.59535217285156 y=0.00018573760462459177 w=21.729999542236328 h=21.729999542236328
+            frame "Frame 2147224447" x=0 y=3.135000228881836 w=37.459999084472656 h=21.729999542236328
+            frame "Frame 2147224459" x=136 y=0 w=96 h=28

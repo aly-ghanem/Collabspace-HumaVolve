@@ -1,0 +1,190 @@
+# Reports (104:2653) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+instance "Navbar" x=0 y=0 w=1440 h=72
+instance "Navbar" x=0 y=0 w=1440 h=72
+frame "Frame 17" x=64 y=96 w=416 h=174
+  frame "Frame 21" x=16 y=16 w=384 h=32
+    text "Task Completion Rate" x=0 y=7 w=261 h=18
+  frame "Frame 20" x=16 y=72 w=114 h=46
+    text "70 %" x=0 y=5 w=115 h=36
+  frame "Frame 22" x=16 y=142 w=384 h=16
+    text "+3% From last month" x=0 y=3 w=121 h=9
+frame "Frame 18" x=514 y=96 w=420 h=174
+  frame "Frame 22" x=16 y=16 w=388 h=32
+    text "Projects Completion Rate" x=0 y=7 w=303 h=18
+  frame "Frame 20" x=16 y=72 w=127 h=46
+    text "88 %" x=0 y=5 w=117 h=36
+  frame "Frame 23" x=16 y=142 w=241 h=16
+    text "+6% From last month" x=0 y=4 w=121 h=9
+frame "Frame 19" x=960 y=96 w=416 h=174
+  frame "Frame 23" x=16 y=16 w=237 h=32
+    text "Teams Activity Rate" x=0 y=7 w=237 h=18
+  frame "Frame 20" x=16 y=72 w=114 h=46
+    text "67 %" x=4 y=5 w=115 h=36
+  frame "Frame 22" x=16 y=142 w=384 h=16
+    text "-4% From last month" x=0 y=3 w=119 h=9
+frame "Frame 24" x=736 y=294 w=640 h=324
+  frame "Frame 21" x=16 y=16 w=608 h=32
+    text "Projects Progress" x=0 y=7 w=211 h=18
+    frame "Button" x=476 y=0 w=132 h=32
+      instance "iconamoon:arrow-up-2-light" x=28 y=24 w=16 h=16
+      text "All Projects" x=36 y=11 w=76 h=10
+frame "Frame 2147224299" x=736 y=642 w=640 h=324
+  frame "Frame 21" x=16 y=16 w=608 h=32
+    text "Submit a detailed report" x=0 y=7 w=289 h=18
+    frame "Frame 2147224301" x=584 y=4 w=24 h=24
+      frame "ri:ai" x=0 y=0 w=24 h=24
+  instance "Button" x=536 y=276 w=88 h=40
+  frame "Frame 2147224397" x=16 y=80 w=608 h=176
+    frame "Frame 2147224302" x=0 y=0 w=608 h=48
+      text "Select Report Type" x=16 y=20 w=128 h=10
+      frame "iconamoon:arrow-up-2-light" x=592 y=36 w=24 h=24
+    instance "Component 2" x=0 y=64 w=608 h=48
+    frame "Frame 2147224485" x=0 y=128 w=608 h=48
+      frame "Dropdowns" x=0 y=0 w=287.5 h=48
+        frame "Password" x=16 y=12 w=78 h=24
+          text "Start Date" x=0 y=0 w=78 h=24
+        frame "uiw:date" x=255.5 y=16 w=16 h=16
+      frame "Dropdowns" x=320.5 y=0 w=287.5 h=48
+        frame "Password" x=16 y=12 w=69 h=24
+          text "End Date" x=0 y=0 w=69 h=24
+        frame "uiw:date" x=255.5 y=16 w=16 h=16
+frame "Frame 25" x=64 y=642 w=636 h=324
+  frame "Frame 21" x=16 y=16 w=604 h=32
+    text "Worker Activity Rate" x=0 y=7 w=244 h=18
+    frame "Button" x=493 y=0 w=111 h=32
+      instance "iconamoon:arrow-up-2-light" x=28 y=24 w=16 h=16
+      text "Monthly" x=36 y=11 w=55 h=10
+  frame "line chart 1" x=16 y=88 w=551 h=220
+    frame "units+chart" x=0 y=0 w=551 h=220
+      frame "units+label" x=0 y=0 w=37.000003814697266 h=220
+        frame "units+measure" x=0 y=0 w=37.000003814697266 h=125
+          frame "Units of measure y" x=0 y=0 w=0.000005463924026116729 h=125
+            vector "Vector 22" x=0 y=0 w=0.00000546392396927331 h=125
+          frame "Measure - Hide" x=16.00000762939453 y=0 w=21 h=193
+            text "measure number" x=0 y=0 w=21 h=16
+            text "measure number" x=0 y=19.66666603088379 w=16 h=16
+            text "measure number" x=0 y=39.33333206176758 w=16 h=16
+            text "measure number" x=0 y=59 w=15 h=16
+            text "measure number" x=0 y=78.66666412353516 w=16 h=16
+            text "measure number" x=0 y=98.33332824707031 w=16 h=16
+            text "measure number" x=0 y=117.99999237060547 w=16 h=16
+            text "measure number" x=0 y=137.66665649414062 w=16 h=16
+            text "measure number" x=0 y=157.3333282470703 w=15 h=16
+            text "measure number" x=0 y=177 w=12 h=16
+        rounded-rectangle "Label holder - Transparent" x=0 y=125 w=37.000003814697266 h=95
+      frame "lines+years" x=61.000003814697266 y=0 w=490 h=220
+        frame "lines+numbers" x=0 y=0 w=490 h=188
+          vector "line chart" x=0 y=-0.0000152587890625 w=490 h=188
+        frame "years" x=0 y=204 w=490 h=15.999999046325684
+          text "year" x=-4.76837158203125e-7 y=2.7755575615628914e-15 w=19.999998807907104 h=15.999999046325684
+          text "year" x=48.5555534362793 y=2.4424906541753444e-15 w=20.99999874830246 h=15.999999046325684
+          text "year" x=98.1111068725586 y=3.1086244689504383e-15 w=21.999998688697815 h=15.999999046325684
+          text "year" x=148.66665649414062 y=2.7755575615628914e-15 w=18.99999886751175 h=15.999999046325684
+          text "year" x=196.2222137451172 y=3.219646771412954e-15 w=23.999998569488525 h=15.999999046325684
+          text "year" x=248.77777099609375 y=2.7755575615628914e-15 w=19.999998807907104 h=15.999999046325684
+          text "year" x=297.33331298828125 y=3.552713678800501e-15 w=26.99999839067459 h=15.999999046325684
+          text "year" x=352.88885498046875 y=3.552713678800501e-15 w=25.999998450279236 h=15.999999046325684
+          text "year" x=407.44439697265625 y=3.552713678800501e-15 w=26.99999839067459 h=15.999999046325684
+          text "year" x=463.0000305175781 y=0 w=26.99999839067459 h=15.999999046325684
+frame "line chart 1" x=752 y=382 w=551 h=220
+  frame "units+chart" x=0 y=0 w=551 h=220
+    frame "units+label" x=0 y=0 w=37.000003814697266 h=220
+      frame "units+measure" x=0 y=0 w=37.000003814697266 h=125
+        frame "Units of measure y" x=0 y=0 w=0.000005463924026116729 h=125
+          vector "Vector 22" x=0 y=0 w=0.00000546392396927331 h=125
+        frame "Measure - Hide" x=16.00000762939453 y=0 w=21 h=193
+          text "measure number" x=0 y=0 w=21 h=16
+          text "measure number" x=0 y=19.66666603088379 w=16 h=16
+          text "measure number" x=0 y=39.33333206176758 w=16 h=16
+          text "measure number" x=0 y=59 w=15 h=16
+          text "measure number" x=0 y=78.66666412353516 w=16 h=16
+          text "measure number" x=0 y=98.33332824707031 w=16 h=16
+          text "measure number" x=0 y=117.99999237060547 w=16 h=16
+          text "measure number" x=0 y=137.66665649414062 w=16 h=16
+          text "measure number" x=0 y=157.3333282470703 w=15 h=16
+          text "measure number" x=0 y=177 w=12 h=16
+      rounded-rectangle "Label holder - Transparent" x=0 y=125 w=37.000003814697266 h=95
+    frame "lines+years" x=61.000003814697266 y=0 w=490 h=220
+      frame "Frame 2147224505" x=-6 y=0 w=502 h=183
+        frame "Clip path group" x=0 y=0 w=500.991943359375 h=182.99998474121094
+          frame "__lottie_element_607" x=0 y=0 w=500.991943359375 h=182.99998474121094
+            vector "Vector" x=0 y=0 w=500.991943359375 h=182.99998474121094
+          frame "Group" x=0 y=0 w=500.991943359375 h=182.99998474121094
+            frame "Group" x=-0.0000017409784049959853 y=0.23827435076236725 w=500.28057861328125 h=182.18528747558594
+            frame "Group" x=0 y=0 w=500.991943359375 h=182.99998474121094
+      frame "years" x=0 y=199 w=490 h=15.999999046325684
+        text "year" x=-4.76837158203125e-7 y=2.7755575615628914e-15 w=19.999998807907104 h=15.999999046325684
+        text "year" x=48.5555534362793 y=2.4424906541753444e-15 w=20.99999874830246 h=15.999999046325684
+        text "year" x=98.1111068725586 y=3.1086244689504383e-15 w=21.999998688697815 h=15.999999046325684
+        text "year" x=148.66665649414062 y=2.7755575615628914e-15 w=18.99999886751175 h=15.999999046325684
+        text "year" x=196.2222137451172 y=3.219646771412954e-15 w=23.999998569488525 h=15.999999046325684
+        text "year" x=248.77777099609375 y=2.7755575615628914e-15 w=19.999998807907104 h=15.999999046325684
+        text "year" x=297.33331298828125 y=3.552713678800501e-15 w=26.99999839067459 h=15.999999046325684
+        text "year" x=352.88885498046875 y=3.552713678800501e-15 w=25.999998450279236 h=15.999999046325684
+        text "year" x=407.44439697265625 y=3.552713678800501e-15 w=26.99999839067459 h=15.999999046325684
+        text "year" x=463.0000305175781 y=0 w=26.99999839067459 h=15.999999046325684
+frame "Frame 2147224300" x=63 y=294 w=637 h=324
+  frame "Frame 21" x=16 y=16 w=608 h=32
+    text "Task Completion Time vs Deadline" x=0 y=7 w=412 h=18
+    frame "Button" x=513 y=0 w=95 h=32
+      instance "iconamoon:arrow-up-2-light" x=28 y=24 w=16 h=16
+      text "Tasks" x=36 y=11 w=39 h=10
+  frame "Graph" x=16 y=117 w=612 h=164
+    frame "Line" x=0 y=0 w=612 h=20
+      text "100" x=0 y=0 w=48 h=20
+      line "Line 7" x=64 y=10 w=548 h=0
+    frame "Line" x=0 y=36 w=612 h=20
+      text "75" x=0 y=0 w=48 h=20
+      line "Line 8" x=64 y=10 w=548 h=0
+    frame "Line" x=0 y=72 w=612 h=20
+      text "50" x=0 y=0 w=48 h=20
+      line "Line 9" x=64 y=10 w=548 h=0
+    frame "Line" x=0 y=108 w=612 h=20
+      text "25" x=0 y=0 w=48 h=20
+      line "Line 10" x=64 y=10 w=548 h=0
+    frame "Line" x=0 y=144 w=612 h=20
+      text "0" x=0 y=0 w=48 h=20
+      line "Line 11" x=64 y=10 w=548 h=0
+    frame "Bar" x=22 y=24 w=588 h=167
+      frame "Graph bar 01" x=0 y=0 w=52 h=167
+        frame "Bar" x=13 y=0 w=26 h=137
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=26 h=137
+        text "Jan" x=0 y=147 w=52 h=20
+      frame "Bar" x=60 y=45 w=52 h=122
+        frame "Bar" x=12 y=0 w=28 h=92
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=28 h=92
+        text "Feb" x=0 y=102 w=52 h=20
+      frame "Bar" x=120 y=73 w=52 h=94
+        frame "Bar" x=12 y=0 w=28 h=64
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=28 h=64
+        text "Mar" x=0 y=74 w=52 h=20
+      frame "Bar" x=180 y=23 w=52 h=144
+        frame "Bar" x=12 y=0 w=28 h=114
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=28 h=114
+        text "Apl" x=0 y=124 w=52 h=20
+      frame "Bar" x=240 y=24 w=52 h=143
+        frame "Bar" x=12 y=0 w=28 h=113
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=28 h=113
+        text "May" x=0 y=123 w=52 h=20
+      frame "Bar" x=300 y=6 w=52 h=161
+        frame "Bar" x=12 y=0 w=28 h=131
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=28 h=131
+        text "Jun" x=0 y=141 w=52 h=20
+      frame "Bar" x=360 y=6 w=52 h=161
+        frame "Bar" x=12 y=0 w=28 h=131
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=28 h=131
+        text "Jun" x=0 y=141 w=52 h=20
+      frame "Bar" x=420 y=6 w=52 h=161
+        frame "Bar" x=12 y=0 w=28 h=131
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=28 h=131
+        text "Jun" x=0 y=141 w=52 h=20
+      frame "Bar" x=480 y=6 w=52 h=161
+        frame "Bar" x=12 y=0 w=28 h=131
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=28 h=131
+        text "Jun" x=0 y=141 w=52 h=20
+      frame "Bar" x=540 y=6 w=52 h=161
+        frame "Bar" x=12 y=0 w=28 h=131
+          rounded-rectangle "Rectangle 54" x=0 y=0 w=28 h=131
+        text "Jun" x=0 y=141 w=52 h=20

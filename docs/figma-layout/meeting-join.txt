@@ -1,0 +1,106 @@
+# Meetings / join Meeting (114:3107) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 2147224332" x=65 y=120 w=751 h=55
+  frame "Frame 2147224424" x=0 y=0 w=751 h=55
+    frame "Frame 2147224425" x=0 y=0 w=194 h=16
+      text "Meetings" x=0 y=0 w=63 h=16
+      frame "iconamoon:arrow-up-2-light" x=87 y=0 w=16 h=16
+      text "Design Review" x=95 y=0 w=99 h=16
+    text "Design Review" x=0 y=32 w=220 h=23
+frame "Frame 2147224425" x=848 y=140 w=530 h=829
+  frame "Frame 2147224434" x=16 y=67.5 w=498 h=40
+    text "Meeting Transcripts" x=0 y=11 w=394 h=18
+    frame "Frame 2147224282" x=410 y=0 w=88 h=40
+      text "English" x=10 y=15.5 w=44 h=9
+      frame "iconamoon:arrow-up-2-light" x=78 y=30 w=20 h=20
+  frame "Frame 2147224287" x=16 y=127.5 w=498 h=40
+    frame "icon / search" x=40 y=8 w=24 h=24
+    text "Search for task and" x=44 y=15 w=117 h=10
+  frame "Frame 2147224435" x=16 y=187.5 w=498 h=79
+    frame "Frame 2147224437" x=0 y=0 w=200 h=32
+      frame "Frame 2147224282" x=0 y=1.5 w=52 h=29
+        text "00:01" x=10 y=10 w=32 h=9
+      frame "Frame 2147224436" x=68 y=0 w=132 h=32
+        frame "Avatar" x=0 y=0 w=32 h=32
+        text "Mohanad Wahib" x=40 y=11.5 w=92 h=9
+    text "Good morning everyone. Thanks for joining on time. Today we’" x=0 y=48 w=498 h=31
+  frame "Frame 2147224436" x=16 y=286.5 w=498 h=79
+    frame "Frame 2147224437" x=0 y=0 w=196 h=32
+      frame "Frame 2147224282" x=0 y=1.5 w=54 h=29
+        text "00:40" x=10 y=10 w=34 h=9
+      frame "Frame 2147224436" x=70 y=0 w=126 h=32
+        frame "Avatar" x=0 y=0 w=32 h=32
+        text "Ahmed Hassan" x=40 y=11.5 w=86 h=9
+    text "Morning. I went through the new homepage design, and overall" x=0 y=48 w=498 h=31
+  frame "Frame 2147224437" x=16 y=385.5 w=498 h=79
+    frame "Frame 2147224437" x=0 y=0 w=182 h=32
+      frame "Frame 2147224282" x=0 y=1.5 w=52 h=29
+        text "01:23" x=10 y=10 w=32 h=9
+      frame "Frame 2147224436" x=68 y=0 w=114 h=32
+        frame "Avatar" x=0 y=0 w=32 h=32
+        text "Omar Khaled" x=40 y=11.5 w=74 h=9
+    text "I agree. The layout is better, but the call-to-action isn’t " x=0 y=48 w=498 h=31
+  frame "Frame 2147224438" x=16 y=484.5 w=498 h=79
+    frame "Frame 2147224437" x=0 y=0 w=200 h=32
+      frame "Frame 2147224282" x=0 y=1.5 w=52 h=29
+        text "02:01" x=10 y=10 w=32 h=9
+      frame "Frame 2147224436" x=68 y=0 w=132 h=32
+        frame "Avatar" x=0 y=0 w=32 h=32
+        text "Mohanad Wahib" x=40 y=11.5 w=92 h=9
+    text "From a UX perspective, the sign-up flow also feels a bit lon" x=0 y=48 w=498 h=31
+  frame "Frame 2147224439" x=16 y=583.5 w=498 h=79
+    frame "Frame 2147224437" x=0 y=0 w=207 h=32
+      frame "Frame 2147224282" x=0 y=1.5 w=54 h=29
+        text "04:48" x=10 y=10 w=34 h=9
+      frame "Frame 2147224436" x=70 y=0 w=137 h=32
+        frame "Avatar" x=0 y=0 w=32 h=32
+        text "Mahmoud Ashraf" x=40 y=11.5 w=97 h=9
+    text "That’s a good point. Do you think we should reduce the numbe" x=0 y=48 w=498 h=31
+  frame "Frame 2147224440" x=16 y=682.5 w=498 h=79
+    frame "Frame 2147224437" x=0 y=0 w=188 h=32
+      frame "Frame 2147224282" x=0 y=1.5 w=52 h=29
+        text "06:15" x=10 y=10 w=32 h=9
+      frame "Frame 2147224436" x=68 y=0 w=120 h=32
+        frame "Avatar" x=0 y=0 w=32 h=32
+        text "Nadir Mustafa" x=40 y=11.5 w=80 h=9
+    text "Good morning everyone. Let’s begin today’s meeting by review" x=0 y=48 w=498 h=31
+instance "Navbar" x=0 y=0 w=1440 h=72
+frame "Frame 2147224339" x=64 y=192 w=752 h=32
+  frame "Frame 2147224396" x=0 y=0 w=98 h=32
+    frame "Frame 2147224395" x=0 y=0 w=32 h=32
+      frame "Bag-Suitcase-1--Streamline-Core" x=8 y=8 w=16 h=16
+    text "Project 1" x=40 y=11 w=58 h=10
+  frame "Frame 2147224361" x=114 y=0 w=152 h=32
+    frame "Avatar" x=0 y=0 w=32 h=32
+    frame "Avatar" x=24 y=0 w=32 h=32
+    frame "Avatar" x=48 y=0 w=32 h=32
+    frame "Avatar" x=72 y=0 w=32 h=32
+    frame "Avatar" x=96 y=0 w=32 h=32
+    frame "Avatar" x=120 y=0 w=32 h=32
+  frame "Frame 2147224282" x=282 y=2 w=131 h=28
+    frame "uiw:date" x=0 y=6 w=16 h=16
+    text "December 12, 2025" x=24 y=6 w=107 h=16
+  frame "Frame 2147224327" x=429 y=2 w=118 h=28
+    frame "weui:time-outlined" x=0 y=6 w=16 h=16
+    text "10:00 - 10:30 AM" x=24 y=6 w=94 h=16
+rounded-rectangle "Rectangle 40088" x=64 y=243 w=752 h=323
+frame "flowbite:play-solid" x=408 y=373 w=64 h=64
+frame "Frame 2147224433" x=65 y=590 w=751 h=379
+  frame "Frame 2147224432" x=0 y=0 w=313 h=30
+    frame "Frame 2147224288" x=0 y=0 w=104.33333587646484 h=30
+      text "AI Summary" x=12.166667938232422 y=10 w=80 h=10
+    frame "Frame 2147224430" x=104.33333587646484 y=0 w=104.33332824707031 h=30
+      text "Note" x=35.666664123535156 y=10 w=33 h=10
+    frame "Frame 2147224431" x=208.66665649414062 y=0 w=104.33332824707031 h=30
+      text "Comments" x=16.166664123535156 y=10 w=72 h=10
+  frame "Frame 2147224429" x=0 y=30 w=751 h=343
+    text "AI Generate Summary" x=16 y=20 w=719 h=18
+    frame "Frame 2147224428" x=16 y=62 w=719 h=179
+      text "Key Points" x=0 y=0 w=719 h=15
+      frame "Frame 2147224427" x=0 y=39 w=719 h=140
+        text "• The team reviewed the latest homepage design and agreed on" x=0 y=0 w=719 h=12
+        text "• Several usability improvements were suggested for the sign" x=0 y=32 w=719 h=12
+        text "• Final color decisions were postponed to the next meeting." x=0 y=64 w=462 h=12
+        text "•The design team was asked to update the wireframes based on" x=0 y=96 w=719 h=12
+        text "•A follow-up review meeting was scheduled for next week." x=0 y=128 w=719 h=12

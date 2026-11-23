@@ -1,6 +1,6 @@
 # CollabSpace — Master Plan
 
-> Source of truth for building CollabSpace. Read this file and `docs/screens.md` before starting any task. Design values come from the Figma MCP (captured once into `docs/screens.md`); PNGs in `design-ref/` are the fallback and the visual-QA reference.
+> Source of truth for building CollabSpace. Read this file and `docs/screens.md` before starting any task. Design values come from `docs/screens.md` and `docs/figma-layout/` (no Figma MCP); PNGs in `design-ref/` show the look and are the visual-QA reference.
 
 ## 0. Context
 
@@ -100,7 +100,7 @@ Rules: features never import another feature's internals; shared pieces live in 
 | label | 12 / 500 / 16 |
 | micro | 10 / 800 / 16 |
 
-**Radius, shadows, spacing:** not defined as Figma variables. Capture them with the Figma MCP (get_design_context) and record in `docs/screens.md` → "Global measurements" before building UI.
+**Radius, shadows, spacing:** not defined as Figma variables. Layout values are in `docs/figma-layout/`; read radius and shadows by hand in Figma's Design panel and record in `docs/screens.md` → "Global measurements" before building UI.
 
 ## 5. Data model (`src/types/domain.ts`)
 
@@ -159,8 +159,8 @@ All non-auth routes are protected; signed-out users go to `/sign-in`.
 Work top to bottom. One task = one Cursor chat = one or more small commits.
 
 ### Day 0 — Tonight (24/11)
-- [ ] T0.1 Connect the Figma MCP in Cursor; export fallback PNGs to `design-ref/`, icons (SVG) to `src/assets/icons/`, avatars (WebP) to `src/assets/avatars/`
-- [ ] T0.2 One-time MCP design capture (docs/SETUP.md step 5) → all measurements written into `docs/screens.md`
+- [ ] T0.1 Export PNGs to `design-ref/`, icons (SVG) to `src/assets/icons/`, avatars (WebP) to `src/assets/avatars/` (no Figma MCP)
+- [x] T0.2 Design capture — done without MCP: layer geometry for all 31 screens in `docs/figma-layout/`, global measurements in `docs/screens.md`. Remaining ✍️ values (radius, shadows) read by hand in Figma.
 - [x] T0.3 Scaffold Vite + TS strict, Tailwind v4, ESLint, Prettier, Vitest, path alias `@/`
 - [x] T0.4 Tokens in `@theme` + Inter + base styles (page-bg)
 - [x] T0.5 Router skeleton with placeholder pages + AppLayout/AuthLayout

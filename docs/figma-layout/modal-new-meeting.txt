@@ -1,0 +1,49 @@
+# Add Meeting overlay (139:2808) 720x595
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 2147224482" x=24 y=24 w=672 h=24
+  text "New Meeting" x=0 y=0 w=159 h=18
+  frame "material-symbols:close-rounded" x=648 y=0 w=24 h=24
+frame "Frame 2147224483" x=24 y=80 w=672 h=419
+  frame "Frame 2147224486" x=0 y=0 w=672 h=56
+    frame "Input" x=0 y=0 w=672 h=56
+      text "Meeting Subject" x=16 y=23 w=108 h=10
+      frame "Frame 2147224480" x=20 y=-3.5 w=93 h=9
+        text "Meeting Subject" x=0 y=0 w=93 h=9
+  frame "Frame 2147224490" x=0 y=88 w=672 h=56
+    frame "Frame 2147224487" x=0 y=0 w=202 h=56
+      frame "Input" x=0 y=0 w=202 h=56
+        text "Meeting Subject" x=16 y=23 w=108 h=10
+        frame "Frame 2147224480" x=17 y=-3.5 w=66 h=9
+          text "Select Date" x=0 y=0 w=66 h=9
+    frame "Frame 2147224488" x=235 y=0 w=202 h=56
+      frame "Input" x=0 y=0 w=202 h=56
+        text "Meeting Subject" x=16 y=23 w=108 h=10
+        frame "Frame 2147224480" x=17 y=-3.5 w=67 h=9
+          text "Select Time" x=0 y=0 w=67 h=9
+    frame "Frame 2147224489" x=470 y=0 w=202 h=56
+      frame "Input" x=0 y=0 w=202 h=56
+        text "Meeting Subject" x=16 y=23 w=108 h=10
+        frame "Frame 2147224480" x=17 y=-3.5 w=88 h=9
+          text "Select Duration" x=0 y=0 w=88 h=9
+  frame "Frame 2147224492" x=0 y=176 w=672 h=104
+    frame "Frame 2147224491" x=0 y=0 w=672 h=48
+      frame "Input" x=0 y=0 w=672 h=48
+        text "@Anas Mohamed" x=16 y=19 w=513 h=10
+        frame "Frame 2147224480" x=17 y=-3.5 w=67 h=9
+          text "Add Guests" x=0 y=0 w=67 h=9
+        frame "Button" x=541 y=8 w=115 h=32
+          text "New entry" x=35.5 y=9 w=28 h=14
+          instance "add" x=71.5 y=8 w=16 h=16
+    frame "Avatars" x=0 y=64 w=672 h=40
+      frame "Avatar" x=24 y=0 w=32 h=32
+      frame "Avatar" x=48 y=0 w=32 h=32
+      frame "Frame 2147224361" x=0 y=0 w=672 h=40
+        frame "Avatar" x=0 y=0 w=40 h=40
+        frame "Avatar" x=32 y=0 w=40 h=40
+  frame "Frame 2147224491" x=0 y=312 w=672 h=107
+    frame "Input" x=0 y=0 w=672 h=107
+      text "The Goal of this meeting is ..." x=16 y=25 w=193 h=10
+      frame "Frame 2147224480" x=17 y=-3.5 w=54 h=9
+        text "Add Note" x=0 y=0 w=54 h=9
+instance "Button" x=24 y=531 w=672 h=40

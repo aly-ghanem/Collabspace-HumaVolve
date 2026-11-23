@@ -1,0 +1,87 @@
+# All Projects (114:1915) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 2147224332" x=65 y=120 w=1311 h=40
+  text "All Projects" x=0 y=8.5 w=170 h=23
+  instance "Button" x=1176 y=0 w=135 h=40
+instance "Navbar" x=0 y=0 w=1440 h=72
+frame "Frame 2147224325" x=64 y=190 w=1312 h=40
+  frame "Frame 2147224287" x=0 y=0 w=326 h=40
+    frame "icon / search" x=40 y=8 w=24 h=24
+    text "Search for task and" x=44 y=11 w=46 h=18
+  frame "Frame 2147224339" x=360 y=0 w=952 h=40
+    frame "Frame 2147224288" x=710 y=0 w=124 h=40
+      text "All Projects" x=16 y=12 w=64 h=16
+      frame "iconamoon:arrow-up-2-light" x=114 y=32 w=24 h=24
+    frame "Frame 2147224289" x=850 y=0 w=102 h=40
+      text "Newest" x=16 y=12 w=42 h=16
+      frame "iconamoon:arrow-up-2-light" x=92 y=32 w=24 h=24
+frame "Frame 2147224340" x=64 y=250 w=1312 h=211
+  frame "Frame 2147224338" x=0 y=0 w=1312 h=59
+    frame "Frame 2147224288" x=0 y=4 w=181.7142791748047 h=47
+      text "Project Name" x=10 y=10 w=116 h=27
+    frame "Frame 2147224289" x=181.7142791748047 y=4 w=181.71429443359375 h=47
+      text "Start Date" x=10 y=10 w=88 h=27
+    frame "Frame 2147224290" x=363.4285888671875 y=4 w=181.71429443359375 h=47
+      text "Deadline" x=10 y=10 w=76 h=27
+    frame "Frame 2147224291" x=545.1428833007812 y=4 w=181.71429443359375 h=47
+      text "Status" x=10 y=10 w=56 h=27
+    frame "Frame 2147224294" x=726.857177734375 y=4 w=181.71429443359375 h=47
+      text "Files" x=10 y=10 w=40 h=27
+    frame "Frame 2147224292" x=908.5714721679688 y=4 w=181.71429443359375 h=47
+      text "Teams" x=10 y=10 w=57 h=27
+    frame "Frame 2147224293" x=1090.2857666015625 y=4 w=181.71429443359375 h=47
+      text "Priority" x=10 y=10 w=63 h=27
+    frame "Frame 2147224282" x=1272 y=7.5 w=40 h=40
+      frame "ion:add-outline" x=8 y=8 w=24 h=24
+  frame "Frame 2147224339" x=0 y=75 w=1312 h=60
+    frame "Frame 2147224288" x=0 y=4 w=184 h=52
+      frame "Frame 2147224396" x=10 y=10 w=78 h=32
+        frame "Frame 2147224395" x=0 y=0 w=32 h=32
+          frame "Bag-Suitcase-1--Streamline-Core" x=8 y=8 w=16 h=16
+        text "Alpha" x=40 y=11 w=38 h=10
+    frame "Frame 2147224289" x=184 y=15 w=184 h=30
+      text "2025-12-12" x=10 y=10 w=78 h=10
+    frame "Frame 2147224290" x=368 y=15 w=184 h=30
+      text "2025-12-14" x=10 y=10 w=78 h=10
+    frame "Frame 2147224291" x=552 y=15 w=184 h=30
+      text "active" x=10 y=10 w=40 h=10
+    frame "Frame 2147224327" x=736 y=16 w=184 h=28
+      frame "mdi-light:file" x=0 y=4 w=20 h=20
+      text "22 Files" x=28 y=9 w=52 h=10
+    frame "Frame 2147224292" x=920 y=8.133350372314453 w=184 h=43.733299255371094
+      frame "Avatars" x=10 y=10 w=77.13322448730469 h=23.733301162719727
+        frame "Avatar" x=0 y=0 w=23.733301162719727 h=23.733301162719727
+        frame "Avatar" x=17.799976348876953 y=0.00004882812572759576 w=23.733301162719727 h=23.733301162719727
+        frame "Avatar" x=35.599952697753906 y=0.00004882812572759576 w=23.733301162719727 h=23.733301162719727
+        frame "Avatar" x=17.799976348876953 y=0.00004882812572759576 w=23.733301162719727 h=23.733301162719727
+        frame "Avatar" x=35.599952697753906 y=0.00004882812572759576 w=23.733301162719727 h=23.733301162719727
+        frame "Avatar" x=53.39992904663086 y=0 w=23.733301162719727 h=23.733301162719727
+    frame "Frame 2147224293" x=1104 y=15 w=184 h=30
+      text "High" x=10 y=10 w=31 h=10
+    frame "pepicons-pencil:dots-y" x=1288 y=18 w=24 h=24
+  frame "Frame 2147224340" x=0 y=151 w=1312 h=60
+    frame "Frame 2147224288" x=0 y=4 w=184 h=52
+      frame "Frame 2147224396" x=10 y=10 w=98 h=32
+        frame "Frame 2147224395" x=0 y=0 w=32 h=32
+          frame "Bag-Suitcase-1--Streamline-Core" x=8 y=8 w=16 h=16
+        text "SepetGo" x=40 y=11 w=58 h=10
+    frame "Frame 2147224289" x=184 y=15 w=184 h=30
+      text "2025-12-12" x=10 y=10 w=78 h=10
+    frame "Frame 2147224290" x=368 y=15 w=184 h=30
+      text "2025-12-14" x=10 y=10 w=78 h=10
+    frame "Frame 2147224291" x=552 y=15 w=184 h=30
+      text "Done" x=10 y=10 w=35 h=10
+    frame "Frame 2147224327" x=736 y=16 w=184 h=28
+      frame "mdi-light:file" x=0 y=4 w=20 h=20
+      text "22 Files" x=28 y=9 w=52 h=10
+    frame "Frame 2147224292" x=920 y=8.133350372314453 w=184 h=43.733299255371094
+      frame "Avatars" x=10 y=10 w=59.333251953125 h=23.733301162719727
+        frame "Avatar" x=0 y=0 w=23.733301162719727 h=23.733301162719727
+        frame "Avatar" x=17.799976348876953 y=0.00004882812572759576 w=23.733301162719727 h=23.733301162719727
+        frame "Avatar" x=35.599952697753906 y=0.00004882812572759576 w=23.733301162719727 h=23.733301162719727
+        frame "Avatar" x=17.799976348876953 y=0.00004882812572759576 w=23.733301162719727 h=23.733301162719727
+        frame "Avatar" x=35.599952697753906 y=0.00004882812572759576 w=23.733301162719727 h=23.733301162719727
+    frame "Frame 2147224293" x=1104 y=15 w=184 h=30
+      text "Medium" x=10 y=10 w=53 h=10
+    frame "pepicons-pencil:dots-y" x=1288 y=18 w=24 h=24

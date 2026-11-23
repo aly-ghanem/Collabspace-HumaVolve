@@ -1,0 +1,26 @@
+# Notification overlay (209:6425) 311x256
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 2147224534" x=0 y=16 w=311 h=16
+  text "Notifications" x=16 y=0 w=279 h=16
+frame "Frame 2147224536" x=0 y=52 w=311 h=188
+  frame "Frame 2147224532" x=0 y=0 w=311 h=56
+    frame "Frame 2147224533" x=16 y=8 w=279 h=16
+      text "Meeting Reminder" x=0 y=0 w=239 h=16
+      text "13:00" x=247 y=0 w=32 h=16
+    frame "Frame 2147224531" x=16 y=32 w=279 h=16
+      text "“ Review Meeting starts in 30 minutes.”" x=0 y=0 w=279 h=16
+  line "Line 14" x=0 y=72 w=311 h=0
+  frame "Frame 2147224533" x=0 y=88 w=311 h=34
+    frame "Frame 2147224533" x=16 y=0 w=279 h=16
+      text "Task Overdue" x=0 y=0 w=239 h=16
+      text "14:30" x=247 y=0 w=32 h=16
+    frame "Frame 2147224531" x=16 y=24 w=279 h=10
+      text "“Create Wireframes is overdue by 1 day.”" x=0 y=0 w=279 h=10
+  line "Line 13" x=0 y=138 w=311 h=0
+  frame "Frame 2147224535" x=0 y=154 w=311 h=34
+    frame "Frame 2147224533" x=16 y=0 w=279 h=16
+      text "Team Update" x=0 y=0 w=214 h=16
+      text "Yesterday" x=222 y=0 w=57 h=16
+    frame "Frame 2147224531" x=16 y=24 w=279 h=10
+      text "“Ali Mohamed joined Project 2.”" x=0 y=0 w=279 h=10

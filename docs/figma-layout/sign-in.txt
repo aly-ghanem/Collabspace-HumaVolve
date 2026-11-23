@@ -1,0 +1,43 @@
+# Sign in (225:9362) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+vector "Vector" x=1135 y=125 w=24 h=24
+frame "Sign In" x=419 y=202.5 w=601 h=627
+  frame "Sign In" x=0 y=0 w=601 h=627
+    frame "Sign In Content" x=64 y=64 w=473 h=387
+      frame "Option" x=0 y=0 w=473 h=131
+        frame "Text" x=0 y=0 w=473 h=55
+          text "Sign In" x=0 y=0 w=473 h=23
+          text "Welcome back, you’ve been missed!" x=0 y=43 w=473 h=12
+        frame "Sign In Option" x=0 y=79 w=473 h=52
+          frame "Button" x=0 y=0 w=473 h=52
+            instance "Social" x=155 y=16 w=20 h=20
+            text "Sign With Google" x=185 y=20 w=133 h=12
+      frame "Group 1" x=0.0000457763671875 y=155 w=472.9999084472656 h=24
+        text "OR" x=215.29605102539062 y=155 w=37.51377868652344 h=24
+        line "Line 1" x=202.2482147216797 y=167 w=202.2481689453125 h=0.000010840373761311639
+        line "Line 2" x=472.9999542236328 y=167 w=202.2481689453125 h=0.00001084038467524806
+      frame "Info" x=0 y=203 w=473 h=184
+        frame "Input" x=0 y=0 w=473 h=56
+          instance "Email" x=16 y=18 w=20 h=20
+          text "Email" x=48 y=16 w=79 h=24
+          frame "Frame 2147224480" x=17 y=-4 w=31 h=9
+            text "Email" x=0 y=0 w=31 h=9
+        frame "Input" x=0 y=80 w=473 h=56
+          instance "Lock" x=16 y=18 w=20 h=20
+          text "Email" x=48 y=16 w=74 h=24
+          frame "Frame 2147224480" x=17 y=-4 w=56 h=9
+            text "Passwrod" x=0 y=0 w=56 h=9
+        frame "Footer" x=0 y=160 w=473 h=24
+          frame "Remember Me" x=0 y=0 w=140 h=24
+            frame "Checkbox" x=0 y=2 w=20 h=20
+            text "Remember Me" x=30 y=0 w=110 h=24
+          text "Forget Password?" x=337 y=0 w=136 h=24
+    frame "Log In" x=64 y=475 w=473 h=88
+      instance "Button" x=0 y=0 w=473 h=40
+      text "Don’t have an account yet? Sign Up" x=0 y=64 w=473 h=24
+frame "Header" x=48 y=48 w=1344 h=40
+  text "Collabspace" x=0 y=0 w=113 h=40
+  frame "Frame 2147224282" x=1256 y=0 w=88 h=40
+    text "English" x=10 y=15.5 w=44 h=9
+    frame "iconamoon:arrow-up-2-light" x=78 y=30 w=20 h=20

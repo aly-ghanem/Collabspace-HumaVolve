@@ -1,0 +1,74 @@
+# Files (139:1219) 1440x1004
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+instance "Navbar" x=0 y=0 w=1440 h=72
+frame "Frame 2147224455" x=64 y=120 w=1312 h=688
+  frame "Frame 2147224332" x=0 y=0 w=1312 h=55
+    frame "Frame 2147224332" x=0 y=0 w=963 h=55
+      frame "Frame 2147224424" x=0 y=0 w=751 h=55
+        frame "Frame 2147224425" x=0 y=0 w=137 h=16
+          text "Dashboard" x=0 y=0 w=74 h=16
+          frame "iconamoon:arrow-up-2-light" x=98 y=0 w=16 h=16
+          text "Files" x=106 y=0 w=31 h=16
+        text "Files" x=0 y=32 w=70 h=23
+    frame "Frame 2147224287" x=972 y=11.5 w=206 h=32
+      frame "icon / search" x=32 y=4 w=24 h=24
+      text "Search for task and" x=36 y=7 w=84 h=18
+    frame "Indicator" x=1187 y=7.5 w=125 h=40
+      frame "Last week" x=12 y=8 w=97 h=24
+        frame "iconamoon:arrow-up-2-light" x=24 y=24 w=24 h=24
+        text "All Projects" x=32 y=4 w=65 h=16
+  frame "Frame 2147224454" x=0 y=87 w=1312 h=601
+    frame "Frame 2147224453" x=24 y=24 w=1264 h=139
+      text "Recent Files" x=0 y=0 w=1264 h=18
+      frame "Frame 2147224446" x=0 y=49 w=1264 h=90
+        frame "Frame 2147224443" x=0 y=0 w=388 h=90
+          frame "Frame 2147224445" x=16 y=16 w=318 h=58
+            frame "pdf logo" x=0 y=9 w=40 h=40
+            frame "Frame 2147224444" x=54 y=0 w=264 h=58
+          frame "lsicon:download-filled" x=348 y=33 w=24 h=24
+        frame "Frame 2147224444" x=438 y=0 w=388 h=90
+          frame "Frame 2147224445" x=16 y=16 w=318 h=58
+            frame "pdf logo" x=0 y=9 w=40 h=40
+            frame "Frame 2147224444" x=54 y=0 w=264 h=58
+          frame "lsicon:download-filled" x=348 y=33 w=24 h=24
+        frame "Frame 2147224445" x=876 y=0 w=388 h=90
+          frame "Frame 2147224445" x=16 y=16 w=318 h=58
+            frame "pdf logo" x=0 y=9 w=40 h=40
+            frame "Frame 2147224444" x=54 y=0 w=264 h=58
+          frame "lsicon:download-filled" x=348 y=33 w=24 h=24
+    frame "Frame 2147224452" x=24 y=211 w=1264 h=366
+      frame "Frame 2147224447" x=0 y=0 w=1264 h=40
+        text "All Files" x=0 y=11 w=92 h=18
+        instance "Button" x=1133 y=0 w=131 h=40
+      frame "Frame 2147224451" x=0 y=64 w=1264 h=302
+        frame "Frame 2147224448" x=0 y=0 w=1264 h=90
+          frame "Frame 2147224443" x=0 y=0 w=400 h=90
+            frame "Frame 2147224445" x=16 y=16 w=330 h=58
+            frame "lsicon:download-filled" x=360 y=33 w=24 h=24
+          frame "Frame 2147224444" x=432 y=0 w=400 h=90
+            frame "Frame 2147224445" x=16 y=16 w=330 h=58
+            frame "lsicon:download-filled" x=360 y=33 w=24 h=24
+          frame "Frame 2147224445" x=864 y=0 w=400 h=90
+            frame "Frame 2147224445" x=16 y=16 w=330 h=58
+            frame "lsicon:download-filled" x=360 y=33 w=24 h=24
+        frame "Frame 2147224449" x=0 y=106 w=1264 h=90
+          frame "Frame 2147224443" x=0 y=0 w=400 h=90
+            frame "Frame 2147224445" x=16 y=16 w=330 h=58
+            frame "lsicon:download-filled" x=360 y=33 w=24 h=24
+          frame "Frame 2147224444" x=432 y=0 w=400 h=90
+            frame "Frame 2147224445" x=16 y=16 w=330 h=58
+            frame "lsicon:download-filled" x=360 y=33 w=24 h=24
+          frame "Frame 2147224445" x=864 y=0 w=400 h=90
+            frame "Frame 2147224445" x=16 y=16 w=330 h=58
+            frame "lsicon:download-filled" x=360 y=33 w=24 h=24
+        frame "Frame 2147224450" x=0 y=212 w=1264 h=90
+          frame "Frame 2147224443" x=0 y=0 w=400 h=90
+            frame "Frame 2147224445" x=16 y=16 w=330 h=58
+            frame "lsicon:download-filled" x=360 y=33 w=24 h=24
+          frame "Frame 2147224444" x=432 y=0 w=400 h=90
+            frame "Frame 2147224445" x=16 y=16 w=330 h=58
+            frame "lsicon:download-filled" x=360 y=33 w=24 h=24
+          frame "Frame 2147224445" x=864 y=0 w=400 h=90
+            frame "Frame 2147224445" x=16 y=16 w=330 h=58
+            frame "lsicon:download-filled" x=360 y=33 w=24 h=24

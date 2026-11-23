@@ -1,0 +1,91 @@
+# Profile / tasks (214:8573) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 2147224549" x=63 y=130 w=1313 h=676
+  frame "Frame 2147224538" x=0 y=0 w=1313 h=118
+    frame "Frame 2147224546" x=0 y=13 w=92 h=92
+      ellipse "Img" x=0 y=0 w=92 h=92
+      frame "tabler:edit" x=68 y=64 w=36 h=36
+        frame "hugeicons:setting-07" x=6 y=6 w=24 h=24
+    frame "Frame 2147224537" x=112 y=18 w=541 h=82
+      text "Azunyan U Wu" x=0 y=0 w=541 h=38
+      frame "Frame 2147224539" x=0 y=54 w=541 h=28
+        text "elementarybgmailcom" x=0 y=6.5 w=147 h=15
+        frame "Frame 2147224282" x=163 y=0 w=175 h=28
+          frame "uiw:date" x=0 y=4 w=20 h=20
+          text "Joind Apr 2022" x=28 y=6.5 w=147 h=15
+    frame "Frame 2147224297" x=673 y=0 w=310 h=118
+      frame "Frame 2147224544" x=16 y=16 w=206 h=86
+        text "Completed Tasks" x=0 y=0 w=206 h=10
+        text "140" x=0 y=63 w=57 h=23
+      frame "Frame 2147224395" x=222 y=23 w=72 h=72
+        frame "Bag-Suitcase-1--Streamline-Core" x=22.153846740722656 y=22.153846740722656 w=27.69230842590332 h=27.69230842590332
+    frame "Frame 2147224300" x=1003 y=0 w=310 h=118
+      frame "Frame 2147224544" x=16 y=16 w=206 h=86
+        text "Hours Worked" x=0 y=0 w=206 h=10
+        text "345" x=0 y=63 w=61 h=23
+      frame "Frame 2147224395" x=222 y=23 w=72 h=72
+        frame "carbon:time" x=22.5 y=22.5 w=27 h=27
+  frame "Frame 2147224545" x=0 y=164 w=1313 h=512
+    frame "Frame 2147224514" x=0 y=0 w=1313 h=28
+      frame "Frame 2147224512" x=0 y=0 w=104 h=28
+        text "Overview" x=16 y=0 w=72 h=12
+      frame "Frame 2147224511" x=134 y=0 w=77 h=28
+        text "Tasks" x=16 y=0 w=45 h=12
+      frame "Frame 2147224514" x=241 y=0 w=67 h=28
+        text "Files" x=16 y=0 w=35 h=12
+    frame "Frame 2147224547" x=0 y=76 w=1313 h=436
+      frame "Frame 2147224520" x=0 y=0 w=632.5 h=356
+        frame "Frame 2147224449" x=0 y=0 w=632.5 h=68
+          frame "Frame 2147224353" x=20 y=20 w=592.5 h=28
+            frame "Frame 2147224366" x=0 y=0 w=551.5 h=28
+            frame "Frame 2147224509" x=567.5 y=0 w=25 h=28
+        frame "Frame 2147224366" x=0 y=88 w=632.5 h=16
+          frame "Indicator" x=16 y=0 w=100 h=16
+            frame "Last week" x=0 y=0 w=34 h=16
+          frame "Indicator" x=128 y=0 w=488.5 h=16
+            frame "Last week" x=454.5 y=0 w=34 h=16
+        frame "Frame 2147224451" x=0 y=124 w=632.5 h=216
+          frame "Frame 2147224402" x=16 y=0 w=600.5 h=30
+            frame "Frame 2147224387" x=0 y=0 w=600.5 h=30
+          line "Line 14" x=16 y=46 w=600.5 h=0
+          frame "Frame 2147224388" x=16 y=62 w=600.5 h=30
+            frame "Frame 2147224387" x=0 y=0 w=600.5 h=30
+          frame "Frame 2147224404" x=16 y=108 w=600.5 h=30
+            frame "Frame 2147224387" x=0 y=0 w=600.5 h=30
+          line "Line 15" x=16 y=154 w=600.5 h=0
+          frame "Frame 2147224403" x=16 y=170 w=600.5 h=30
+            frame "Frame 2147224387" x=0 y=0 w=600.5 h=30
+          line "Line 16" x=16 y=216 w=600.5 h=0
+      frame "Frame 2147224521" x=680.5 y=0 w=632.5 h=436
+        frame "Frame 2147224449" x=0 y=0 w=632.5 h=68
+          frame "Frame 2147224353" x=20 y=20 w=592.5 h=28
+            frame "Frame 2147224366" x=0 y=0 w=551.5 h=28
+            frame "Frame 2147224509" x=567.5 y=0 w=25 h=28
+        frame "Frame 2147224366" x=0 y=88 w=632.5 h=16
+          frame "Indicator" x=16 y=0 w=100 h=16
+            frame "Last week" x=0 y=0 w=34 h=16
+          frame "Indicator" x=128 y=0 w=488.5 h=16
+            frame "Last week" x=454.5 y=0 w=34 h=16
+        frame "Frame 2147224451" x=0 y=124 w=632.5 h=296
+          frame "Frame 2147224401" x=16 y=0 w=600.5 h=30
+            frame "Frame 2147224387" x=0 y=0 w=564.5 h=30
+            frame "weui:done2-outlined" x=576.5 y=3 w=24 h=24
+          line "Line 14" x=16 y=46 w=600.5 h=0
+          frame "Frame 2147224405" x=16 y=62 w=600.5 h=30
+            frame "Frame 2147224387" x=0 y=0 w=564.5 h=30
+            frame "weui:done2-outlined" x=576.5 y=3 w=24 h=24
+          line "Line 15" x=16 y=108 w=600.5 h=0
+          frame "Frame 2147224402" x=16 y=124 w=600.5 h=30
+            frame "Frame 2147224387" x=0 y=0 w=564.5 h=30
+            frame "weui:done2-outlined" x=576.5 y=3 w=24 h=24
+          line "Line 16" x=16 y=170 w=600.5 h=0
+          frame "Frame 2147224403" x=16 y=186 w=600.5 h=30
+            frame "Frame 2147224387" x=0 y=0 w=564.5 h=30
+            frame "weui:done2-outlined" x=576.5 y=3 w=24 h=24
+          line "Line 17" x=16 y=232 w=600.5 h=1
+          frame "Frame 2147224404" x=16 y=249 w=600.5 h=30
+            frame "Frame 2147224387" x=0 y=0 w=564.5 h=30
+            frame "weui:done2-outlined" x=576.5 y=3 w=24 h=24
+          line "Line 18" x=16 y=295 w=600.5 h=1
+instance "Navbar" x=0 y=0 w=1440 h=72

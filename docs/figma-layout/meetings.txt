@@ -1,0 +1,153 @@
+# Meetings (114:2597) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+instance "Navbar" x=0 y=0 w=1440 h=72
+frame "Frame 2147224332" x=65 y=120 w=1311 h=40
+  text "Meetings" x=0 y=8.5 w=1137 h=23
+  instance "Button" x=1169 y=0 w=142 h=40
+frame "Frame 2147224333" x=64 y=202 w=1311 h=40
+  frame "Frame 2147224404" x=0 y=8 w=1158 h=24
+    frame "iconamoon:arrow-up-2" x=0 y=24 w=24 h=24
+    text "December 2025" x=40 y=4.5 w=155 h=15
+    frame "iconamoon:arrow-up-2" x=235 y=0 w=24 h=24
+  frame "Frame 2147224288" x=1190 y=0 w=121 h=40
+    text "This Week" x=12 y=15 w=69 h=10
+    frame "iconamoon:arrow-up-2-light" x=111 y=30 w=20 h=20
+frame "Frame 2147224418" x=64 y=281 w=1311 h=789
+  frame "Frame 2147224415" x=0 y=0 w=1311 h=38
+    frame "Frame 2147224413" x=0 y=0 w=1311 h=38
+      frame "Frame 2147224408" x=0 y=0 w=218.5 h=38
+        text "Time" x=0 y=14 w=218.5 h=10
+      frame "Frame 2147224413" x=218.5 y=0 w=218.5 h=38
+        text "Today" x=0 y=8 w=218.5 h=10
+        text "18" x=0 y=20 w=218.5 h=10
+      frame "Frame 2147224409" x=437 y=0 w=218.5 h=38
+        text "Mon" x=0 y=8 w=218.5 h=10
+        text "18" x=0 y=20 w=218.5 h=10
+      frame "Frame 2147224410" x=655.5 y=0 w=218.5 h=38
+        text "Tue" x=0 y=8 w=218.5 h=10
+        text "18" x=0 y=20 w=218.5 h=10
+      frame "Frame 2147224411" x=874 y=0 w=218.5 h=38
+        text "Wed" x=0 y=8 w=218.5 h=10
+        text "18" x=0 y=20 w=218.5 h=10
+      frame "Frame 2147224412" x=1092.5 y=0 w=218.5 h=38
+        text "Thurs" x=89.75 y=8 w=39 h=10
+        text "18" x=0 y=20 w=218.5 h=10
+  frame "Frame 2147224417" x=0 y=38 w=1311 h=137
+    frame "Frame 2147224413" x=0 y=0 w=1311 h=137
+      frame "Frame 2147224408" x=0 y=0 w=218.5 h=137
+        text "9:00" x=0 y=63.5 w=218.5 h=10
+      frame "Frame 2147224413" x=218.5 y=0 w=218.5 h=137
+        frame "Frame 2147224360" x=12 y=16 w=194.5 h=105
+          frame "Frame 2147224301" x=12 y=8.5 w=170.5 h=88
+            frame "Frame 2147224360" x=0 y=0 w=170.5 h=40
+            frame "Avatars" x=0 y=56 w=170.5 h=32
+      frame "Frame 2147224409" x=437 y=0 w=218.5 h=137
+        text "Mon" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224410" x=655.5 y=0 w=218.5 h=137
+        text "Tue" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224411" x=874 y=0 w=218.5 h=137
+        text "Wed" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224412" x=1092.5 y=0 w=218.5 h=137
+        frame "Frame 2147224360" x=12 y=16 w=194.5 h=105
+          frame "Frame 2147224301" x=12 y=8.5 w=170.5 h=88
+            frame "Frame 2147224360" x=0 y=0 w=170.5 h=40
+            frame "Avatars" x=0 y=56 w=170.5 h=32
+  frame "Frame 2147224418" x=0 y=175 w=1311 h=137
+    frame "Frame 2147224413" x=0 y=0 w=1311 h=137
+      frame "Frame 2147224414" x=0 y=0 w=218.5 h=137
+        text "10:00" x=0 y=63.5 w=218.5 h=10
+      frame "Frame 2147224413" x=218.5 y=0 w=218.5 h=137
+      frame "Frame 2147224409" x=437 y=0 w=218.5 h=137
+        text "Mon" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224410" x=655.5 y=0 w=218.5 h=137
+        text "Tue" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224411" x=874 y=0 w=218.5 h=137
+        text "Wed" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224412" x=1092.5 y=0 w=218.5 h=137
+        text "Thurs" x=90.25 y=51.5 w=38 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+  frame "Frame 2147224419" x=0 y=312 w=1311 h=137
+    frame "Frame 2147224413" x=0 y=0 w=1311 h=137
+      frame "Frame 2147224414" x=0 y=0 w=218.5 h=137
+        text "11:00" x=0 y=63.5 w=218.5 h=10
+      frame "Frame 2147224413" x=218.5 y=0 w=218.5 h=137
+      frame "Frame 2147224409" x=437 y=0 w=218.5 h=137
+        text "Mon" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224410" x=655.5 y=0 w=218.5 h=137
+        frame "Frame 2147224360" x=12 y=16 w=194.5 h=105
+          frame "Frame 2147224301" x=12 y=8.5 w=170.5 h=88
+            frame "Frame 2147224360" x=0 y=0 w=170.5 h=40
+            frame "Avatars" x=0 y=56 w=170.5 h=32
+      frame "Frame 2147224411" x=874 y=0 w=218.5 h=137
+        text "Wed" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224412" x=1092.5 y=0 w=218.5 h=137
+        text "Thurs" x=90.25 y=51.5 w=38 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+  frame "Frame 2147224420" x=0 y=449 w=1311 h=137
+    frame "Frame 2147224413" x=0 y=0 w=1311 h=137
+      frame "Frame 2147224414" x=0 y=0 w=218.5 h=137
+        text "12:00" x=0 y=63.5 w=218.5 h=10
+      frame "Frame 2147224413" x=218.5 y=0 w=218.5 h=137
+      frame "Frame 2147224409" x=437 y=0 w=218.5 h=137
+        frame "Frame 2147224360" x=12 y=16 w=194.5 h=105
+          frame "Frame 2147224301" x=12 y=8.5 w=170.5 h=88
+            frame "Frame 2147224360" x=0 y=0 w=170.5 h=40
+            frame "Avatars" x=0 y=56 w=170.5 h=32
+      frame "Frame 2147224410" x=655.5 y=0 w=218.5 h=137
+        text "Tue" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224411" x=874 y=0 w=218.5 h=137
+        frame "Frame 2147224361" x=12 y=16 w=194.5 h=105
+          frame "Frame 2147224301" x=12 y=8.5 w=170.5 h=88
+            frame "Frame 2147224360" x=0 y=0 w=170.5 h=40
+            frame "Avatars" x=0 y=56 w=170.5 h=32
+      frame "Frame 2147224412" x=1092.5 y=0 w=218.5 h=137
+        text "Thurs" x=90.25 y=51.5 w=38 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+  frame "Frame 2147224421" x=0 y=586 w=1311 h=137
+    frame "Frame 2147224413" x=0 y=0 w=1311 h=137
+      frame "Frame 2147224414" x=0 y=0 w=218.5 h=137
+        text "13:00" x=0 y=63.5 w=218.5 h=10
+      frame "Frame 2147224413" x=218.5 y=0 w=218.5 h=137
+        frame "Frame 2147224360" x=12 y=16 w=194.5 h=105
+          frame "Frame 2147224301" x=12 y=8.5 w=170.5 h=88
+            frame "Frame 2147224360" x=0 y=0 w=170.5 h=40
+            frame "Avatars" x=0 y=56 w=170.5 h=32
+      frame "Frame 2147224409" x=437 y=0 w=218.5 h=137
+        text "Mon" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224410" x=655.5 y=0 w=218.5 h=137
+        text "Tue" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224411" x=874 y=0 w=218.5 h=137
+        text "Wed" x=12 y=51.5 w=194.5 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+      frame "Frame 2147224412" x=1092.5 y=0 w=218.5 h=137
+        text "Thurs" x=90.25 y=51.5 w=38 h=16
+        text "18" x=12 y=69.5 w=194.5 h=16
+  frame "Frame 2147224422" x=0 y=723 w=1311 h=66
+    frame "Frame 2147224413" x=0 y=0 w=1311 h=66
+      frame "Frame 2147224414" x=0 y=0 w=218.5 h=66
+        text "14:00" x=0 y=25 w=218.5 h=16
+      frame "Frame 2147224413" x=218.5 y=0 w=218.5 h=66
+      frame "Frame 2147224409" x=437 y=0 w=218.5 h=66
+        text "Mon" x=12 y=16 w=194.5 h=16
+        text "18" x=12 y=34 w=194.5 h=16
+      frame "Frame 2147224410" x=655.5 y=0 w=218.5 h=66
+        text "Tue" x=12 y=16 w=194.5 h=16
+        text "18" x=12 y=34 w=194.5 h=16
+      frame "Frame 2147224411" x=874 y=0 w=218.5 h=66
+        text "Wed" x=12 y=16 w=194.5 h=16
+        text "18" x=12 y=34 w=194.5 h=16
+      frame "Frame 2147224412" x=1092.5 y=0 w=218.5 h=66
+        text "Thurs" x=90.25 y=16 w=38 h=16
+        text "18" x=12 y=34 w=194.5 h=16

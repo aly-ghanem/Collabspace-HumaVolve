@@ -1,0 +1,14 @@
+# Duration overlay (139:1583) 210x164
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Last week" x=16 y=16 w=178 h=28
+  text "Today" x=0 y=6 w=178 h=16
+frame "Last week" x=16 y=44 w=178 h=28
+  text "This Week" x=0 y=6 w=178 h=16
+frame "Last week" x=16 y=72 w=178 h=28
+  text "This Month" x=0 y=6 w=65 h=16
+frame "Last week" x=16 y=100 w=178 h=28
+  text "Last Three Month" x=0 y=6 w=102 h=16
+frame "Last week" x=16 y=128 w=178 h=28
+  text "This Year" x=0 y=6 w=158 h=16
+  frame "weui:done2-outlined" x=162 y=6 w=16 h=16

@@ -1,0 +1,51 @@
+# Chats (126:2481) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 1" x=65 y=104 w=415 h=942
+  instance "Component 3" x=16 y=16 w=383 h=48
+  frame "Frame 2" x=16 y=88 w=383 h=48
+    text "inbox" x=0 y=12 w=83 h=23
+  frame "Frame 3" x=16 y=160 w=383 h=48
+    text "Project Chats" x=0 y=12 w=203 h=23
+  line "Line 1" x=2 y=232 w=411 h=0
+  frame "Frame 2147224469" x=16 y=256 w=383 h=792
+    frame "Frame 2147224465" x=0 y=0 w=364 h=48
+      text "Recent" x=0 y=6 w=364 h=36
+    frame "Frame 2147224471" x=0 y=72 w=383 h=216
+      frame "Frame 11" x=0 y=0 w=383 h=96
+        text "Pet website Project" x=16 y=16 w=232 h=18
+        text "Public Channel" x=16 y=50 w=143 h=15
+        frame "Frame 2147224478" x=16 y=77.5 w=316 h=16
+          text "We need to improve performance" x=24 y=3 w=205 h=9
+          ellipse "Ellipse 1" x=0 y=0 w=16 h=16
+        text "5:22 pm" x=334 y=21 w=49 h=9
+      frame "Frame 12" x=0 y=120 w=383 h=96
+        text "Pet website Project" x=16 y=16 w=232 h=18
+        text "Public Channel" x=16 y=50 w=143 h=15
+        frame "Frame 2147224478" x=16 y=77.5 w=316 h=16
+          text "We need to improve performance" x=24 y=3 w=205 h=9
+          ellipse "Ellipse 1" x=0 y=0 w=16 h=16
+        text "5:22 pm" x=334 y=21 w=49 h=9
+    frame "Frame 2147224469" x=0 y=312 w=383 h=480
+      frame "Frame 2147224470" x=10 y=0 w=382 h=847
+        frame "Frame 7" x=0 y=0 w=382 h=96
+          ellipse "Ellipse 1" x=16 y=16 w=64 h=64
+          frame "Frame 2147224472" x=104 y=24 w=252 h=48
+            text "Mohamed Ahmed" x=0 y=0 w=169 h=15
+            text "5:22 pm" x=203 y=3 w=49 h=9
+            text "Yes,we can do this and e.." x=0 y=36 w=197 h=12
+        frame "Frame 8" x=0 y=120 w=382 h=96
+          ellipse "Ellipse 1" x=16 y=16 w=64 h=64
+          frame "Frame 2147224472" x=104 y=24 w=252 h=48
+            text "Salah Ali" x=0 y=0 w=82 h=15
+            text "7:22 pm" x=203 y=3 w=49 h=9
+            text "Please try and do this and e.." x=0 y=36 w=220 h=12
+        frame "Frame 2147224466" x=0 y=240 w=382 h=96
+          ellipse "Ellipse 1" x=16 y=16 w=64 h=64
+          frame "Frame 2147224472" x=104 y=24 w=252 h=48
+            text "Ramzy Khaled" x=0 y=0 w=136 h=15
+            text "5:22 pm" x=203 y=3 w=49 h=9
+            text "I don’t know and e.." x=0 y=36 w=147 h=12
+frame "Frame 9" x=512 y=104 w=864 h=888
+  text "Select Chat" x=344 y=425 w=176 h=39
+instance "Navbar" x=0 y=0 w=1440 h=72

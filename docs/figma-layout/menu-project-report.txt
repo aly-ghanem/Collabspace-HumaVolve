@@ -1,0 +1,13 @@
+# Project overlay (163:1089) 608x172
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Last week" x=16 y=16 w=576 h=28
+  text "Project Progress" x=0 y=6 w=95 h=16
+frame "Last week" x=16 y=44 w=576 h=28
+  text "Meetings Summery" x=0 y=6 w=576 h=16
+frame "Last week" x=16 y=72 w=576 h=28
+  text "Worker Preformance" x=0 y=6 w=118 h=16
+frame "Last week" x=16 y=100 w=576 h=28
+  text "Tasks" x=0 y=6 w=34 h=16
+frame "Last week" x=16 y=128 w=576 h=28
+  text "KPI’s" x=0 y=6 w=27 h=16

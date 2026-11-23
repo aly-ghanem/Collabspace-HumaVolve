@@ -1,0 +1,33 @@
+# Ask Ai/ chat (229:5948) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame" x=0 y=0 w=1440 h=1024
+  instance "Navbar" x=0 y=0 w=1440 h=72
+  frame "Frame" x=0 y=112 w=1440 h=662
+    frame "Frame" x=96 y=32 w=1248 h=44
+      instance "Component" x=0 y=0 w=497 h=44
+    frame "Frame" x=96 y=88 w=1248 h=144
+      instance "Chat Bubble" x=928 y=0 w=320 h=144
+    frame "Frame" x=96 y=244 w=1248 h=114
+      instance "Component" x=788 y=0 w=460 h=114
+    frame "Frame" x=96 y=370 w=1248 h=158
+      instance "Component" x=0 y=0 w=460 h=124
+      frame "Frame" x=0 y=134 w=1248 h=24
+        frame "Frame" x=48 y=0 w=144 h=24
+          instance "SpeakerSimpleHigh" x=0 y=0 w=24 h=24
+          instance "CopySimple" x=40 y=0 w=24 h=24
+          instance "Repeat" x=80 y=0 w=24 h=24
+          instance "ThumbsDown" x=120 y=0 w=24 h=24
+    frame "Frame" x=96 y=540 w=1248 h=42
+      instance "Chat Bubble" x=1134 y=0 w=114 h=42
+  frame "Frame" x=0 y=814 w=1440 h=200
+    frame "Chat Input Alt" x=32 y=24 w=1376 h=152
+      frame "Frame" x=16 y=16 w=1344 h=120
+        frame "Frame" x=0 y=0 w=1344 h=24
+          frame "si:add-line" x=0 y=0 w=24 h=24
+          text "Message to ChatBot..." x=32 y=1 w=1312 h=22
+        frame "Frame" x=0 y=72 w=1344 h=48
+          instance "Button Icon" x=1176 y=4 w=40 h=40
+          frame "Button" x=1232 y=0 w=112 h=48
+            text "New entry" x=20 y=17 w=48 h=14
+            frame "prime:send" x=76 y=12 w=24 h=24

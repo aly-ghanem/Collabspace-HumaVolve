@@ -61,6 +61,15 @@
   --text-micro: 0.625rem;
   --text-micro--line-height: 1rem;
   --font-weight-micro: 800;
+
+  /* Layout from docs/screens.md Global measurements */
+  --spacing-page: 64px;
+  --spacing-gap: 24px;
+  --spacing-nav: 72px;
+  --spacing-content-top: 96px;
+  --container-content: 1312px;
+  --container-modal: 720px;
+  --breakpoint-design: 1440px;
 }
 
 /* Named Figma text styles include weight; @theme --text-* alone only sets size/leading */

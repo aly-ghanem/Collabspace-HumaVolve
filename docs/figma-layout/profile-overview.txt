@@ -1,0 +1,49 @@
+# Profile/overview (214:8454) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 2147224549" x=53 y=120 w=1333 h=614
+  frame "Frame 2147224548" x=10 y=10 w=1313 h=594
+    frame "Frame 2147224538" x=0 y=0 w=1313 h=118
+      frame "Frame 2147224546" x=0 y=13 w=92 h=92
+        ellipse "Img" x=0 y=0 w=92 h=92
+        frame "tabler:edit" x=68 y=64 w=36 h=36
+          frame "hugeicons:setting-07" x=6 y=6 w=24 h=24
+      frame "Frame 2147224537" x=112 y=18 w=541 h=82
+        text "Azunyan U Wu" x=0 y=0 w=541 h=38
+        frame "Frame 2147224539" x=0 y=54 w=541 h=28
+          text "elementarybgmailcom" x=0 y=6.5 w=147 h=15
+          frame "Frame 2147224282" x=163 y=0 w=175 h=28
+            frame "uiw:date" x=0 y=4 w=20 h=20
+            text "Joind Apr 2022" x=28 y=6.5 w=147 h=15
+      frame "Frame 2147224297" x=673 y=0 w=310 h=118
+        frame "Frame 2147224544" x=16 y=16 w=206 h=86
+          text "Completed Tasks" x=0 y=0 w=206 h=10
+          text "140" x=0 y=63 w=57 h=23
+        frame "Frame 2147224395" x=222 y=23 w=72 h=72
+          frame "Bag-Suitcase-1--Streamline-Core" x=22.153846740722656 y=22.153846740722656 w=27.69230842590332 h=27.69230842590332
+      frame "Frame 2147224300" x=1003 y=0 w=310 h=118
+        frame "Frame 2147224544" x=16 y=16 w=206 h=86
+          text "Hours Worked" x=0 y=0 w=206 h=10
+          text "345" x=0 y=63 w=61 h=23
+        frame "Frame 2147224395" x=222 y=23 w=72 h=72
+          frame "carbon:time" x=22.5 y=22.5 w=27 h=27
+    frame "Frame 2147224545" x=0 y=164 w=1313 h=430
+      frame "Frame 2147224514" x=0 y=0 w=1313 h=28
+        frame "Frame 2147224511" x=0 y=0 w=105 h=28
+          text "Overview" x=16 y=0 w=73 h=12
+        frame "Frame 2147224512" x=135 y=0 w=76 h=28
+          text "Tasks" x=16 y=0 w=44 h=12
+        frame "Frame 2147224514" x=241 y=0 w=67 h=28
+          text "Files" x=16 y=0 w=35 h=12
+      frame "Frame 2147224543" x=0 y=76 w=753 h=354
+        frame "Frame 2147224540" x=0 y=0 w=753 h=124
+          text "About" x=0 y=0 w=753 h=18
+          text "Experienced UI/UX Designer with over 5 years of expertise in" x=0 y=40 w=753 h=84
+        frame "Frame 2147224541" x=0 y=172 w=753 h=182
+          text "Recent Activates" x=0 y=0 w=753 h=18
+          frame "Frame 2147224542" x=0 y=42 w=753 h=140
+            frame "Frame 2147224383" x=0 y=0 w=753 h=20
+            frame "Frame 2147224384" x=0 y=40 w=753 h=20
+            frame "Frame 2147224385" x=0 y=80 w=753 h=20
+            frame "Frame 2147224386" x=0 y=120 w=753 h=20
+instance "Navbar" x=0 y=0 w=1440 h=72

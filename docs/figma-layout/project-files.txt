@@ -1,0 +1,94 @@
+# All Projects / Alpha / Files (181:2367) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+instance "Navbar" x=0 y=0 w=1440 h=72
+frame "Frame 2147224529" x=64 y=104 w=1312 h=716
+  frame "Frame 2147224528" x=0 y=0 w=1312 h=126
+    frame "Frame 2147224527" x=0 y=0 w=955 h=126
+      frame "Frame 2147224404" x=0 y=0 w=955 h=60
+        frame "Frame 2147224511" x=0 y=0 w=124 h=16
+          text "Projects" x=0 y=0 w=54 h=16
+          frame "iconamoon:arrow-up-2-light" x=78 y=0 w=16 h=16
+          text "Alpha" x=86 y=3 w=38 h=10
+        frame "Frame 2147224510" x=0 y=32 w=217 h=28
+          text "Alpha" x=0 y=2.5 w=87 h=23
+          frame "Frame 2147224509" x=103 y=0 w=114 h=28
+            frame "Indicator" x=0 y=0 w=114 h=28
+      frame "Frame 2147224514" x=0 y=98 w=955 h=28
+        frame "Frame 2147224511" x=0 y=0 w=104 h=28
+          text "Overview" x=16 y=0 w=72 h=12
+        frame "Frame 2147224513" x=134 y=0 w=76 h=28
+          text "Tasks" x=16 y=0 w=44 h=12
+        frame "Frame 2147224514" x=240 y=0 w=82 h=28
+          text "Teams" x=16 y=0 w=50 h=12
+        frame "Frame 2147224516" x=352 y=0 w=68 h=28
+          text "Files" x=16 y=0 w=36 h=12
+    frame "Frame 2147224355" x=988 y=27.5 w=324 h=71
+      frame "Frame 2147224364" x=12 y=12 w=300 h=10
+        text "DuE Date" x=0 y=0 w=300 h=10
+      frame "Frame 2147224518" x=12 y=38 w=300 h=21
+        frame "Frame 2147224386" x=0 y=0 w=300 h=4
+          frame "Group 33778" x=0 y=0 w=300 h=4
+            rounded-rectangle "Rectangle 40040" x=0 y=0 w=300 h=4
+            rounded-rectangle "Rectangle 40041" x=0 y=0 w=180.61224365234375 h=4
+        frame "Frame 2147224508" x=0 y=12 w=300 h=9
+          frame "Frame 2147224402" x=0 y=0 w=110 h=9
+            text "Start Date:" x=0 y=0 w=62 h=9
+            text "Oct 12" x=70 y=0 w=40 h=9
+          frame "Frame 2147224403" x=195 y=0 w=105 h=9
+            text "Deadline:" x=0 y=0 w=53 h=9
+            text "Dec 25" x=61 y=0 w=44 h=9
+  frame "Frame 2147224515" x=0 y=163 w=1312 h=553
+    frame "Frame 2147224453" x=0 y=0 w=1312 h=139
+      text "Recent Files" x=0 y=0 w=1312 h=18
+      frame "Frame 2147224446" x=0 y=49 w=1312 h=90
+        frame "Frame 2147224443" x=0 y=0 w=404 h=90
+          frame "Frame 2147224445" x=16 y=16 w=334 h=58
+            frame "pdf logo" x=0 y=9 w=40 h=40
+            frame "Frame 2147224444" x=54 y=0 w=280 h=58
+          frame "lsicon:download-filled" x=364 y=33 w=24 h=24
+        frame "Frame 2147224444" x=454 y=0 w=404 h=90
+          frame "Frame 2147224445" x=16 y=16 w=334 h=58
+            frame "pdf logo" x=0 y=9 w=40 h=40
+            frame "Frame 2147224444" x=54 y=0 w=280 h=58
+          frame "lsicon:download-filled" x=364 y=33 w=24 h=24
+        frame "Frame 2147224445" x=908 y=0 w=404 h=90
+          frame "Frame 2147224445" x=16 y=16 w=334 h=58
+            frame "pdf logo" x=0 y=9 w=40 h=40
+            frame "Frame 2147224444" x=54 y=0 w=280 h=58
+          frame "lsicon:download-filled" x=364 y=33 w=24 h=24
+    frame "Frame 2147224452" x=0 y=187 w=1312 h=366
+      frame "Frame 2147224447" x=0 y=0 w=1312 h=40
+        text "All Files" x=0 y=11 w=92 h=18
+        instance "Button" x=1181 y=0 w=131 h=40
+      frame "Frame 2147224451" x=0 y=64 w=1312 h=302
+        frame "Frame 2147224448" x=0 y=0 w=1312 h=90
+          frame "Frame 2147224443" x=0 y=0 w=416 h=90
+            frame "Frame 2147224445" x=16 y=16 w=346 h=58
+            frame "lsicon:download-filled" x=376 y=33 w=24 h=24
+          frame "Frame 2147224444" x=448 y=0 w=416 h=90
+            frame "Frame 2147224445" x=16 y=16 w=346 h=58
+            frame "lsicon:download-filled" x=376 y=33 w=24 h=24
+          frame "Frame 2147224445" x=896 y=0 w=416 h=90
+            frame "Frame 2147224445" x=16 y=16 w=346 h=58
+            frame "lsicon:download-filled" x=376 y=33 w=24 h=24
+        frame "Frame 2147224449" x=0 y=106 w=1312 h=90
+          frame "Frame 2147224443" x=0 y=0 w=416 h=90
+            frame "Frame 2147224445" x=16 y=16 w=346 h=58
+            frame "lsicon:download-filled" x=376 y=33 w=24 h=24
+          frame "Frame 2147224444" x=448 y=0 w=416 h=90
+            frame "Frame 2147224445" x=16 y=16 w=346 h=58
+            frame "lsicon:download-filled" x=376 y=33 w=24 h=24
+          frame "Frame 2147224445" x=896 y=0 w=416 h=90
+            frame "Frame 2147224445" x=16 y=16 w=346 h=58
+            frame "lsicon:download-filled" x=376 y=33 w=24 h=24
+        frame "Frame 2147224450" x=0 y=212 w=1312 h=90
+          frame "Frame 2147224443" x=0 y=0 w=416 h=90
+            frame "Frame 2147224445" x=16 y=16 w=346 h=58
+            frame "lsicon:download-filled" x=376 y=33 w=24 h=24
+          frame "Frame 2147224444" x=448 y=0 w=416 h=90
+            frame "Frame 2147224445" x=16 y=16 w=346 h=58
+            frame "lsicon:download-filled" x=376 y=33 w=24 h=24
+          frame "Frame 2147224445" x=896 y=0 w=416 h=90
+            frame "Frame 2147224445" x=16 y=16 w=346 h=58
+            frame "lsicon:download-filled" x=376 y=33 w=24 h=24

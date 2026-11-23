@@ -1,0 +1,24 @@
+# Ask AI (225:9992) 1440x1024
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+vector "Vector" x=1135 y=125 w=24 h=24
+frame "Frame 2147224380" x=64 y=430.5 w=1312 h=171.66665649414062
+  frame "Frame" x=618.5 y=0 w=75 h=76
+    vector "Vector" x=25 y=23.984848022460938 w=25 h=28.030303955078125
+  text "Hi There 👋" x=0 y=104.83332824707031 w=1312 h=23
+  text "Start chatting with Collabspace" x=0 y=156.66665649414062 w=1312 h=15
+frame "Frame 2147224294" x=64 y=704.66650390625 w=1312 h=151
+  frame "Frame 2147224553" x=20 y=20 w=1272 h=12
+    text "ask me anything about..." x=0 y=0 w=1272 h=12
+  frame "Frame" x=20 y=83 w=1272 h=48
+    frame "si:add-line" x=0 y=12 w=24 h=24
+    frame "Frame 2147224600" x=1104 y=0 w=168 h=48
+      instance "Button Icon" x=0 y=4 w=40 h=40
+      frame "Button" x=56 y=0 w=112 h=48
+        text "New entry" x=20 y=17 w=48 h=14
+        frame "prime:send" x=76 y=12 w=24 h=24
+vector "Rectangle 40049" x=598 y=224 w=258.3316345214844 h=117.24042510986328
+vector "Rectangle 40050" x=789.576904296875 y=247 w=258.3316345214844 h=117.24042510986328
+frame "Frame 2147224332" x=65 y=120 w=1311 h=23
+  text "Collabspace AI" x=0 y=0 w=1311 h=23
+instance "Navbar" x=0 y=0 w=1440 h=72

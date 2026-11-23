@@ -1,0 +1,18 @@
+# Search Bar overlay (225:10323) 311x208
+# x/y are relative to the parent. Positions and sizes only; no colors, radius or shadows.
+
+frame "Frame 2147224534" x=0 y=16 w=311 h=16
+  text "Recent Searches" x=16 y=0 w=279 h=16
+frame "Frame 2147224536" x=0 y=52 w=311 h=140
+  frame "Frame 2147224532" x=0 y=0 w=311 h=36
+    frame "Frame 2147224533" x=16 y=8 w=279 h=20
+      text "UI/UX Tasks" x=0 y=2 w=251 h=16
+      frame "material-symbols:close-rounded" x=259 y=0 w=20 h=20
+  frame "Frame 2147224536" x=0 y=52 w=311 h=36
+    frame "Frame 2147224533" x=16 y=8 w=279 h=20
+      text "Project 1 meetings" x=0 y=2 w=251 h=16
+      frame "material-symbols:close-rounded" x=259 y=0 w=20 h=20
+  frame "Frame 2147224537" x=0 y=104 w=311 h=36
+    frame "Frame 2147224533" x=16 y=8 w=279 h=20
+      text "Ali Hassan" x=0 y=2 w=251 h=16
+      frame "material-symbols:close-rounded" x=259 y=0 w=20 h=20
