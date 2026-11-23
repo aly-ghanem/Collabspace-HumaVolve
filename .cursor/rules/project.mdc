@@ -1,0 +1,16 @@
+---
+description: CollabSpace project context and scope
+alwaysApply: true
+---
+
+- This is CollabSpace, a React competition entry. PLAN.md is the source of truth; docs/screens.md holds per-screen specs and Figma node IDs.
+- Design source order: 1) measurements already in docs/screens.md, 2) Figma MCP (file key Q2FK2TwYA6AUcSpJcdnupE) for missing values, 3) PNGs in design-ref/ as fallback and for visual QA.
+- MCP calls are limited. Call get_design_context only on top-level frames or main components, never on small layers. Write every value you fetch into docs/screens.md so it is never fetched twice.
+- Treat MCP reference code as a spec, not code to paste. Rebuild it with our tokens and components.
+- Never invent layout, copy or features. If something is missing, follow PLAN.md section 11 or ask.
+- Only touch files the current task needs. No new dependencies outside PLAN.md section 2 without asking.
+- After changes run `tsc --noEmit` and lint; fix errors before finishing.
+- Repo: https://github.com/aly-ghanem/Collabspace-HumaVolve (branch `main`).
+- Every completed task (PLAN.md section 9, e.g. T1.3) ends with: typecheck + lint pass → `git add` → conventional commit referencing the task ID (e.g. `feat(ui): add Button variants [T1.1]`) → `git push`. Never leave a finished task uncommitted or unpushed.
+- Every completed phase (day block) ends with a push and a tag: `git tag phase-<n>` then `git push --tags`.
+- Tick the task's checkbox in PLAN.md in the same commit.

@@ -1,0 +1,13 @@
+---
+description: Design tokens and styling rules
+globs: src/**/*.{ts,tsx,css}
+alwaysApply: false
+---
+
+- Style with Tailwind using the tokens in PLAN.md section 4 (defined in `@theme`). No raw hex values in components.
+- Primary blue is #005AFB. Never use #3B82F6.
+- Font is Inter; use the named text styles (h4, h6, body-semibold, body-sm, caption, label, micro).
+- Use spacing, radius and shadow values recorded in docs/screens.md "Global measurements".
+- Icons come from src/assets/icons (Streamline Core). Do not substitute another icon set.
+- Every interactive element has hover, focus-visible and disabled styles.
+- Priority colors: High = red, Medium = yellow, Low = green. Status: Done = green, active = red.

@@ -1,0 +1,16 @@
+---
+description: Code style conventions
+globs: src/**/*.{ts,tsx}
+alwaysApply: false
+---
+
+- Function components, named exports, one component per file, files under ~150 lines.
+- File names: PascalCase for components, camelCase for hooks/utils. Hooks start with `use`.
+- TypeScript strict. No `any`; derive form types from Zod schemas.
+- Comments only explain why something non-obvious is done. Never restate what code does. No JSDoc on obvious props. No banner or section-divider comments.
+- No leftover console.log, commented-out code, or TODOs without context.
+- Features import from `@/components/ui`, `@/lib`, `@/types`, `@/store` — never from another feature's internals.
+- Domain values (KPIs, progress, ratios) are derived from store data, never hard-coded.
+- Route tabs, filters and search live in the URL.
+- Data views handle loading (skeleton), empty (EmptyState) and error states.
+- Accessible by default: labels on inputs, aria-label on icon buttons, keyboard support for menus and drag-and-drop.
